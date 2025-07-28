@@ -10,6 +10,7 @@ A modern, interactive web application for learning French and Chinese vocabulary
 - **Difficulty Levels**: Basic, Intermediate, and Advanced with contextual sentences
 - **Chinese Pinyin**: Chinese words include pinyin pronunciation
 - **Audio Pronunciation**: Click the sound button or press spacebar to hear word pronunciation
+- **Sentence Audio**: Click the sentence button or press 'S' to hear the full sentence
 - **Progress Tracking**: Visual progress bar and card counter
 - **Responsive Design**: Works on desktop and mobile devices
 - **Keyboard Navigation**: Use arrow keys to navigate, spacebar for audio
@@ -27,11 +28,18 @@ A modern, interactive web application for learning French and Chinese vocabulary
    - Use the arrow buttons
    - Use keyboard arrow keys
 6. **Learn in Context**: Each card shows the word in a sentence appropriate to the difficulty level
-7. **Listen to Pronunciation**: 
-   - Click the sound button (speaker icon)
-   - Press spacebar for quick audio
+7. **Navigate Cards**: 
+   - Tap left side of card to go to previous card
+   - Tap right side of card to go to next card
+   - Swipe left/right on mobile devices
+   - Drag with mouse on desktop
+   - Use the arrow buttons
+   - Use keyboard arrow keys
+8. **Listen to Pronunciation**: 
+   - Click the sound button (speaker icon) or press spacebar for word pronunciation
+   - Click the sentence button (volume icon) or press 'S' for sentence pronunciation
    - Visual feedback shows when audio is playing
-8. **Track Progress**: Monitor your progress with the progress bar and card counter
+9. **Track Progress**: Monitor your progress with the progress bar and card counter
 
 ## Vocabulary Categories
 

@@ -296,28 +296,208 @@ const vocabulary = {
             }
         ],
         verbs: [
-            { word: "être", translation: "to be", category: "verbs" },
-            { word: "avoir", translation: "to have", category: "verbs" },
-            { word: "faire", translation: "to do/make", category: "verbs" },
-            { word: "aller", translation: "to go", category: "verbs" },
-            { word: "venir", translation: "to come", category: "verbs" },
-            { word: "voir", translation: "to see", category: "verbs" },
-            { word: "parler", translation: "to speak", category: "verbs" },
-            { word: "manger", translation: "to eat", category: "verbs" },
-            { word: "boire", translation: "to drink", category: "verbs" },
-            { word: "dormir", translation: "to sleep", category: "verbs" }
+            { 
+                word: "être", 
+                translation: "to be", 
+                category: "verbs",
+                sentences: {
+                    basic: { sentence: "Je suis étudiant.", translation: "I am a student." },
+                    intermediate: { sentence: "C'est mon livre.", translation: "This is my book." },
+                    advanced: { sentence: "Il est la personne la plus intelligente que j'aie jamais rencontrée.", translation: "He is the smartest person I have ever met." }
+                }
+            },
+            { 
+                word: "avoir", 
+                translation: "to have", 
+                category: "verbs",
+                sentences: {
+                    basic: { sentence: "J'ai un livre.", translation: "I have a book." },
+                    intermediate: { sentence: "J'ai deux frères.", translation: "I have two brothers." },
+                    advanced: { sentence: "J'ai l'opportunité d'étudier à l'étranger.", translation: "I have the opportunity to study abroad." }
+                }
+            },
+            { 
+                word: "faire", 
+                translation: "to do/make", 
+                category: "verbs",
+                sentences: {
+                    basic: { sentence: "Je fais mes devoirs.", translation: "I do my homework." },
+                    intermediate: { sentence: "Je fais le dîner.", translation: "I make dinner." },
+                    advanced: { sentence: "J'ai fait une décision importante.", translation: "I made an important decision." }
+                }
+            },
+            { 
+                word: "aller", 
+                translation: "to go", 
+                category: "verbs",
+                sentences: {
+                    basic: { sentence: "Je vais à l'école.", translation: "I go to school." },
+                    intermediate: { sentence: "Je vais au magasin pour acheter des choses.", translation: "I go to the store to buy things." },
+                    advanced: { sentence: "Je suis allé à l'étranger pendant trois mois.", translation: "I went abroad for three months." }
+                }
+            },
+            { 
+                word: "venir", 
+                translation: "to come", 
+                category: "verbs",
+                sentences: {
+                    basic: { sentence: "Il vient chez moi.", translation: "He comes to my house." },
+                    intermediate: { sentence: "Mon ami vient à la fête.", translation: "My friend comes to the party." },
+                    advanced: { sentence: "Beaucoup de touristes viennent visiter ce site historique.", translation: "Many tourists come to visit this historical site." }
+                }
+            },
+            { 
+                word: "voir", 
+                translation: "to see", 
+                category: "verbs",
+                sentences: {
+                    basic: { sentence: "Je vois la télévision.", translation: "I watch television." },
+                    intermediate: { sentence: "Je vois des films.", translation: "I watch movies." },
+                    advanced: { sentence: "J'ai lu beaucoup d'œuvres littéraires classiques.", translation: "I have read many classic literary works." }
+                }
+            },
+            { 
+                word: "parler", 
+                translation: "to speak", 
+                category: "verbs",
+                sentences: {
+                    basic: { sentence: "Je parle français.", translation: "I speak French." },
+                    intermediate: { sentence: "Je parle anglais et français.", translation: "I speak English and French." },
+                    advanced: { sentence: "Je parle plusieurs langues, y compris l'espagnol et l'italien.", translation: "I speak multiple languages, including Spanish and Italian." }
+                }
+            },
+            { 
+                word: "manger", 
+                translation: "to eat", 
+                category: "verbs",
+                sentences: {
+                    basic: { sentence: "Je mange du pain.", translation: "I eat bread." },
+                    intermediate: { sentence: "Je mange de la cuisine française.", translation: "I eat French cuisine." },
+                    advanced: { sentence: "J'aime manger diverses cuisines internationales.", translation: "I like eating various international cuisines." }
+                }
+            },
+            { 
+                word: "boire", 
+                translation: "to drink", 
+                category: "verbs",
+                sentences: {
+                    basic: { sentence: "Je bois de l'eau.", translation: "I drink water." },
+                    intermediate: { sentence: "Je bois du thé et du café.", translation: "I drink tea and coffee." },
+                    advanced: { sentence: "J'aime boire différents types de thé, surtout le thé vert et le thé noir.", translation: "I like drinking different types of tea, especially green tea and black tea." }
+                }
+            },
+            { 
+                word: "dormir", 
+                translation: "to sleep", 
+                category: "verbs",
+                sentences: {
+                    basic: { sentence: "Je dors.", translation: "I sleep." },
+                    intermediate: { sentence: "Je dors à dix heures du soir.", translation: "I sleep at 10 PM." },
+                    advanced: { sentence: "Je m'assure de dormir huit heures par jour pour maintenir ma santé.", translation: "I ensure eight hours of sleep daily to maintain my health." }
+                }
+            }
         ],
         food: [
-            { word: "pain", translation: "bread", category: "food" },
-            { word: "fromage", translation: "cheese", category: "food" },
-            { word: "pomme", translation: "apple", category: "food" },
-            { word: "banane", translation: "banana", category: "food" },
-            { word: "lait", translation: "milk", category: "food" },
-            { word: "eau", translation: "water", category: "food" },
-            { word: "café", translation: "coffee", category: "food" },
-            { word: "thé", translation: "tea", category: "food" },
-            { word: "viande", translation: "meat", category: "food" },
-            { word: "poisson", translation: "fish", category: "food" }
+            { 
+                word: "pain", 
+                translation: "bread", 
+                category: "food",
+                sentences: {
+                    basic: { sentence: "Je mange du pain.", translation: "I eat bread." },
+                    intermediate: { sentence: "J'aime le pain frais.", translation: "I like fresh bread." },
+                    advanced: { sentence: "J'achète du pain frais à la boulangerie tous les jours.", translation: "I buy fresh bread from the bakery every day." }
+                }
+            },
+            { 
+                word: "fromage", 
+                translation: "cheese", 
+                category: "food",
+                sentences: {
+                    basic: { sentence: "Le fromage est délicieux.", translation: "Cheese is delicious." },
+                    intermediate: { sentence: "J'aime manger du fromage avec du vin rouge.", translation: "I like eating cheese with red wine." },
+                    advanced: { sentence: "J'ai goûté divers fromages du monde entier.", translation: "I have tasted various cheeses from around the world." }
+                }
+            },
+            { 
+                word: "pomme", 
+                translation: "apple", 
+                category: "food",
+                sentences: {
+                    basic: { sentence: "Je mange une pomme.", translation: "I eat an apple." },
+                    intermediate: { sentence: "J'aime les pommes rouges.", translation: "I like red apples." },
+                    advanced: { sentence: "Je mange une pomme par jour pour rester en bonne santé.", translation: "I eat an apple daily to stay healthy." }
+                }
+            },
+            { 
+                word: "banane", 
+                translation: "banana", 
+                category: "food",
+                sentences: {
+                    basic: { sentence: "La banane est douce.", translation: "The banana is sweet." },
+                    intermediate: { sentence: "Je mange des bananes au petit-déjeuner.", translation: "I eat bananas for breakfast." },
+                    advanced: { sentence: "Je fais des smoothies sains avec des bananes.", translation: "I make healthy smoothies with bananas." }
+                }
+            },
+            { 
+                word: "lait", 
+                translation: "milk", 
+                category: "food",
+                sentences: {
+                    basic: { sentence: "Je bois du lait.", translation: "I drink milk." },
+                    intermediate: { sentence: "Je bois du lait tous les jours.", translation: "I drink milk every day." },
+                    advanced: { sentence: "Je bois du lait bio pour une meilleure nutrition.", translation: "I drink organic milk for better nutrition." }
+                }
+            },
+            { 
+                word: "eau", 
+                translation: "water", 
+                category: "food",
+                sentences: {
+                    basic: { sentence: "Je bois de l'eau.", translation: "I drink water." },
+                    intermediate: { sentence: "Je bois huit verres d'eau par jour.", translation: "I drink eight glasses of water daily." },
+                    advanced: { sentence: "Je bois de l'eau filtrée pour assurer la sécurité de l'eau.", translation: "I drink filtered water to ensure water safety." }
+                }
+            },
+            { 
+                word: "café", 
+                translation: "coffee", 
+                category: "food",
+                sentences: {
+                    basic: { sentence: "Je bois du café.", translation: "I drink coffee." },
+                    intermediate: { sentence: "Je bois du café le matin.", translation: "I drink coffee in the morning." },
+                    advanced: { sentence: "J'aime goûter les saveurs uniques de différents grains de café.", translation: "I like tasting the unique flavors of different coffee beans." }
+                }
+            },
+            { 
+                word: "thé", 
+                translation: "tea", 
+                category: "food",
+                sentences: {
+                    basic: { sentence: "Je bois du thé.", translation: "I drink tea." },
+                    intermediate: { sentence: "J'aime le thé vert.", translation: "I like green tea." },
+                    advanced: { sentence: "Je collectionne divers thés, y compris le thé noir, vert et aux fleurs.", translation: "I collect various teas, including black tea, green tea, and flower tea." }
+                }
+            },
+            { 
+                word: "viande", 
+                translation: "meat", 
+                category: "food",
+                sentences: {
+                    basic: { sentence: "Je mange de la viande.", translation: "I eat meat." },
+                    intermediate: { sentence: "J'aime manger du bœuf.", translation: "I like eating beef." },
+                    advanced: { sentence: "Je choisis de la viande bio pour soutenir l'agriculture durable.", translation: "I choose organic meat to support sustainable agriculture." }
+                }
+            },
+            { 
+                word: "poisson", 
+                translation: "fish", 
+                category: "food",
+                sentences: {
+                    basic: { sentence: "Je mange du poisson.", translation: "I eat fish." },
+                    intermediate: { sentence: "J'aime manger du saumon.", translation: "I like eating salmon." },
+                    advanced: { sentence: "Je mange du poisson deux fois par semaine pour obtenir des acides gras omega-3.", translation: "I eat fish twice a week to get omega-3 fatty acids." }
+                }
+            }
         ]
     },
     chinese: {
@@ -328,9 +508,9 @@ const vocabulary = {
                 pinyin: "fángzi", 
                 category: "house",
                 sentences: {
-                    basic: { sentence: "这是我的房子。", translation: "This is my house." },
-                    intermediate: { sentence: "我住在一个大房子里。", translation: "I live in a big house." },
-                    advanced: { sentence: "我们买了一栋带花园的现代房子。", translation: "We bought a modern house with a garden." }
+                    basic: { sentence: "这是我的房子。", pinyin: "Zhè shì wǒ de fángzi.", translation: "This is my house." },
+                    intermediate: { sentence: "我住在一个大房子里。", pinyin: "Wǒ zhù zài yīgè dà fángzi lǐ.", translation: "I live in a big house." },
+                    advanced: { sentence: "我们买了一栋带花园的现代房子。", pinyin: "Wǒmen mǎile yī dòng dài huāyuán de xiàndài fángzi.", translation: "We bought a modern house with a garden." }
                 }
             },
             { 
@@ -339,9 +519,9 @@ const vocabulary = {
                 pinyin: "wòshì", 
                 category: "house",
                 sentences: {
-                    basic: { sentence: "我的卧室很大。", translation: "My bedroom is big." },
-                    intermediate: { sentence: "我在卧室里睡觉。", translation: "I sleep in my bedroom." },
-                    advanced: { sentence: "儿童房装饰着各种玩具。", translation: "The children's room is decorated with various toys." }
+                    basic: { sentence: "我的卧室很大。", pinyin: "Wǒ de wòshì hěn dà.", translation: "My bedroom is big." },
+                    intermediate: { sentence: "我在卧室里睡觉。", pinyin: "Wǒ zài wòshì lǐ shuìjiào.", translation: "I sleep in my bedroom." },
+                    advanced: { sentence: "儿童房装饰着各种玩具。", pinyin: "Értóng fáng zhuāngshì zhe gèzhǒng wánjù.", translation: "The children's room is decorated with various toys." }
                 }
             },
             { 
@@ -838,10 +1018,19 @@ class QuickCardApp {
             this.currentCardIndex + 1
         ].filter(index => index >= 0 && index < this.currentCards.length);
 
-        indices.forEach((index, position) => {
-            const card = this.createCard(this.currentCards[index], index, position);
-            cardStack.appendChild(card);
-        });
+        // If we're at the first card, only show current and next
+        if (this.currentCardIndex === 0) {
+            const firstIndices = [0, 1].filter(index => index < this.currentCards.length);
+            firstIndices.forEach((index, position) => {
+                const card = this.createCard(this.currentCards[index], index, position === 0 ? 1 : 2);
+                cardStack.appendChild(card);
+            });
+        } else {
+            indices.forEach((index, position) => {
+                const card = this.createCard(this.currentCards[index], index, position);
+                cardStack.appendChild(card);
+            });
+        }
     }
 
     createCard(cardData, index, position) {
@@ -869,6 +1058,7 @@ class QuickCardApp {
             ${cardData.pinyin ? `<div class="card-pinyin">${cardData.pinyin}</div>` : ''}
             ${sentenceData ? `
                 <div class="card-sentence">${sentenceData.sentence}</div>
+                ${this.currentLanguage === 'chinese' && sentenceData.pinyin ? `<div class="card-sentence-pinyin">${sentenceData.pinyin}</div>` : ''}
                 <div class="card-sentence-translation">${sentenceData.translation}</div>
             ` : ''}
         `;
@@ -924,6 +1114,7 @@ class QuickCardApp {
         document.getElementById('prevBtn').addEventListener('click', () => this.previousCard());
         document.getElementById('nextBtn').addEventListener('click', () => this.nextCard());
         document.getElementById('soundBtn').addEventListener('click', () => this.playCurrentWord());
+        document.getElementById('sentenceBtn').addEventListener('click', () => this.playCurrentSentence());
 
         // Touch/swipe events
         const cardStack = document.querySelector('.card-stack');
@@ -938,6 +1129,9 @@ class QuickCardApp {
         cardStack.addEventListener('mouseup', (e) => this.handleMouseUp(e));
         cardStack.addEventListener('mouseleave', (e) => this.handleMouseLeave(e));
 
+        // Tap events for easier navigation
+        cardStack.addEventListener('click', (e) => this.handleCardTap(e));
+
         // Keyboard navigation
         document.addEventListener('keydown', (e) => {
             if (e.key === 'ArrowLeft') {
@@ -947,6 +1141,9 @@ class QuickCardApp {
             } else if (e.key === ' ' || e.key === 'Space') {
                 e.preventDefault();
                 this.playCurrentWord();
+            } else if (e.key === 's' || e.key === 'S') {
+                e.preventDefault();
+                this.playCurrentSentence();
             }
         });
     }
@@ -1014,7 +1211,7 @@ class QuickCardApp {
         if (!activeCard) return;
 
         const deltaX = this.currentX - this.startX;
-        const threshold = 50;
+        const threshold = 30; // Reduced threshold for easier navigation
 
         if (Math.abs(deltaX) > threshold) {
             if (deltaX > 0) {
@@ -1126,10 +1323,68 @@ class QuickCardApp {
         this.speechSynthesis.speak(utterance);
     }
 
+    playCurrentSentence() {
+        if (this.isPlaying) {
+            this.stopSpeech();
+            return;
+        }
+
+        const currentCard = this.currentCards[this.currentCardIndex];
+        if (!currentCard || !currentCard.sentences) return;
+
+        const sentenceData = currentCard.sentences[this.currentDifficulty];
+        if (!sentenceData) return;
+
+        this.isPlaying = true;
+        const sentenceBtn = document.getElementById('sentenceBtn');
+        sentenceBtn.classList.add('playing');
+
+        // Create speech utterance for sentence
+        const utterance = new SpeechSynthesisUtterance(sentenceData.sentence);
+        
+        // Set language based on current selection
+        if (this.currentLanguage === 'french') {
+            utterance.lang = 'fr-FR';
+            const frenchVoice = this.getBestFrenchVoice();
+            if (frenchVoice) {
+                utterance.voice = frenchVoice;
+            }
+        } else if (this.currentLanguage === 'chinese') {
+            utterance.lang = 'zh-CN';
+            const chineseVoice = this.getBestChineseVoice();
+            if (chineseVoice) {
+                utterance.voice = chineseVoice;
+            }
+        }
+
+        utterance.rate = 0.7; // Slower for better pronunciation
+        utterance.pitch = 1.0;
+        utterance.volume = 1.0;
+
+        // Handle speech end
+        utterance.onend = () => {
+            this.isPlaying = false;
+            sentenceBtn.classList.remove('playing');
+        };
+
+        utterance.onerror = (event) => {
+            console.log('Speech error:', event.error);
+            this.isPlaying = false;
+            sentenceBtn.classList.remove('playing');
+            
+            // Show user-friendly error message
+            this.showVoiceError();
+        };
+
+        // Speak the sentence
+        this.speechSynthesis.speak(utterance);
+    }
+
     stopSpeech() {
         this.speechSynthesis.cancel();
         this.isPlaying = false;
         document.getElementById('soundBtn').classList.remove('playing');
+        document.getElementById('sentenceBtn').classList.remove('playing');
     }
 
     getBestFrenchVoice() {
@@ -1144,7 +1399,7 @@ class QuickCardApp {
         // First, try to find a voice with a French name
         for (const name of frenchVoiceNames) {
             const voice = voices.find(v => 
-                v.name.includes(name) && v.lang.startsWith('fr')
+                v.name.includes(name) && v.lang.startsWith('fr-FR')
             );
             if (voice) {
                 console.log('Using French voice:', voice.name);
@@ -1154,7 +1409,7 @@ class QuickCardApp {
         
         // Then try any French voice with local service
         const localFrenchVoice = voices.find(voice => 
-            voice.lang.startsWith('fr') && voice.localService
+            voice.lang.startsWith('fr-FR') && voice.localService
         );
         if (localFrenchVoice) {
             console.log('Using local French voice:', localFrenchVoice.name);
@@ -1163,7 +1418,7 @@ class QuickCardApp {
         
         // Finally, any French voice
         const anyFrenchVoice = voices.find(voice => 
-            voice.lang.startsWith('fr')
+            voice.lang.startsWith('fr-FR') && voice.name.includes('Remy')
         );
         if (anyFrenchVoice) {
             console.log('Using available French voice:', anyFrenchVoice.name);
@@ -1240,6 +1495,26 @@ class QuickCardApp {
                 notification.parentNode.removeChild(notification);
             }
         }, 3000);
+    }
+
+    handleCardTap(e) {
+        // Only handle tap if not dragging
+        if (this.isDragging) return;
+        
+        const cardStack = document.querySelector('.card-stack');
+        const rect = cardStack.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const cardWidth = rect.width;
+        
+        // Determine tap position relative to card
+        if (clickX < cardWidth * 0.4) {
+            // Left side - previous card
+            this.previousCard();
+        } else if (clickX > cardWidth * 0.6) {
+            // Right side - next card
+            this.nextCard();
+        }
+        // Middle area (40%-60%) - no action (prevents accidental navigation)
     }
 
     refreshVoices() {
