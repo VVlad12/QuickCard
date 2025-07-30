@@ -8,16 +8,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Language Selection Modal -->
+    <div id="languageModal" class="modal">
+        <div class="modal-content">
+            <h2>Choose Your Language</h2>
+            <div class="language-options">
+                <button class="language-option" data-lang="french">
+                    <span class="flag">🇫🇷</span>
+                    <span>French</span>
+                </button>
+                <button class="language-option" data-lang="chinese">
+                    <span class="flag">🇨🇳</span>
+                    <span>Chinese</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <header class="header">
             <h1 class="title">QuickCard</h1>
-            <p class="subtitle">Learn French & Chinese Vocabulary</p>
         </header>
 
-        <div class="language-selector">
+        <!-- <div class="language-selector">
             <button class="lang-btn active" data-lang="french">French</button>
             <button class="lang-btn" data-lang="chinese">Chinese</button>
-        </div>
+        </div> -->
 
         <div class="difficulty-selector">
             <button class="difficulty-btn active" data-difficulty="basic">Basic</button>
@@ -30,6 +46,8 @@
             <button class="category-btn" data-category="activities">Activities</button>
             <button class="category-btn" data-category="verbs">Verbs</button>
             <button class="category-btn" data-category="food">Food</button>
+            <!-- <button class="category-btn" data-category="animal">Animal</button>
+            <button class="category-btn" data-category="plant">Plant</button> -->
         </div>
 
         <div class="card-container">
@@ -48,17 +66,11 @@
                     <path d="M15 18l-6-6 6-6"/>
                 </svg>
             </button>
-            <button class="control-btn" id="soundBtn" title="Listen to word pronunciation">
+            <button class="control-btn" id="soundBtn" title="Listen to pronunciation">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M9 18V5l12-2v13"/>
                     <circle cx="6" cy="18" r="3"/>
                     <circle cx="18" cy="16" r="3"/>
-                </svg>
-            </button>
-            <button class="control-btn" id="sentenceBtn" title="Listen to sentence pronunciation">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M3 9h6l5-5v16l-5-5H3V9z"/>
-                    <path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02z"/>
                 </svg>
             </button>
             <button class="control-btn" id="nextBtn">
@@ -68,9 +80,20 @@
             </button>
         </div>
 
+        <div class="flip-controls">
+            <button class="flip-btn" id="flipBtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 12h18"/>
+                    <path d="M12 3v18"/>
+                    <path d="M7 7l10 10"/>
+                    <path d="M7 17l10-10"/>
+                </svg>
+                <span>Flip Card</span>
+            </button>
+        </div>
+
         <div class="stats">
-            <span class="stat">Cards: <span id="cardCount">0</span></span>
-            <span class="stat">Progress: <span id="progressPercent">0%</span></span>
+ 
         </div>
     </div>
 

@@ -9,8 +9,8 @@ A modern, interactive web application for learning French and Chinese vocabulary
 - **Vocabulary Categories**: House, Activities, Verbs, and Food
 - **Difficulty Levels**: Basic, Intermediate, and Advanced with contextual sentences
 - **Chinese Pinyin**: Chinese words include pinyin pronunciation
-- **Audio Pronunciation**: Click the sound button or press spacebar to hear word pronunciation
-- **Sentence Audio**: Click the sentence button or press 'S' to hear the full sentence
+- **Card Flip**: Click the flip button or press 'F' to reveal the sentence context
+- **Smart Audio**: Click the sound button or press spacebar to hear word/sentence pronunciation
 - **Progress Tracking**: Visual progress bar and card counter
 - **Responsive Design**: Works on desktop and mobile devices
 - **Keyboard Navigation**: Use arrow keys to navigate, spacebar for audio
@@ -27,7 +27,7 @@ A modern, interactive web application for learning French and Chinese vocabulary
    - Drag with mouse on desktop
    - Use the arrow buttons
    - Use keyboard arrow keys
-6. **Learn in Context**: Each card shows the word in a sentence appropriate to the difficulty level
+6. **Learn in Context**: Flip the card to see the word in a sentence appropriate to the difficulty level
 7. **Navigate Cards**: 
    - Tap left side of card to go to previous card
    - Tap right side of card to go to next card
@@ -35,11 +35,14 @@ A modern, interactive web application for learning French and Chinese vocabulary
    - Drag with mouse on desktop
    - Use the arrow buttons
    - Use keyboard arrow keys
-8. **Listen to Pronunciation**: 
-   - Click the sound button (speaker icon) or press spacebar for word pronunciation
-   - Click the sentence button (volume icon) or press 'S' for sentence pronunciation
+8. **Flip Cards**: 
+   - Click the flip button or press 'F' to reveal the sentence
+   - Cards start showing only the word, flip to see context
+9. **Listen to Pronunciation**: 
+   - Click the sound button (speaker icon) or press spacebar for pronunciation
+   - Audio plays word when card is unflipped, sentence when flipped
    - Visual feedback shows when audio is playing
-9. **Track Progress**: Monitor your progress with the progress bar and card counter
+10. **Track Progress**: Monitor your progress with the progress bar and card counter
 
 ## Vocabulary Categories
 
