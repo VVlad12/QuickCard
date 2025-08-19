@@ -4217,6 +4217,7 @@ class QuickCardApp {
         this.currentLanguage = 'french';
         this.currentCategory = 'house';
         this.currentDifficulty = 'basic';
+        this.currentMode = 'learn';
         this.currentCardIndex = 0;
         this.currentCards = [];
         this.isDragging = false;
@@ -4243,6 +4244,17 @@ class QuickCardApp {
             option.addEventListener('click', (e) => {
                 const selectedLang = e.currentTarget.dataset.lang;
                 this.selectLanguage(selectedLang);
+            });
+        });
+
+        // Mode selection inside modal
+        document.querySelectorAll('.mode-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+                e.currentTarget.classList.add('active');
+                this.currentMode = e.currentTarget.dataset.mode;
+                this.renderCards();
+                this.updateUI();
             });
         });
     }
@@ -4296,27 +4308,12 @@ class QuickCardApp {
     renderCards() {
         const cardStack = document.querySelector('.card-stack');
         cardStack.innerHTML = '';
-
-        // Create cards for current, previous, and next
-        const indices = [
-            this.currentCardIndex - 1,
-            this.currentCardIndex,
-            this.currentCardIndex + 1
-        ].filter(index => index >= 0 && index < this.currentCards.length);
-
-        // If we're at the first card, only show current and next
-        if (this.currentCardIndex === 0) {
-            const firstIndices = [0, 1].filter(index => index < this.currentCards.length);
-            firstIndices.forEach((index, position) => {
-                const card = this.createCard(this.currentCards[index], index, position === 0 ? 1 : 2);
-                cardStack.appendChild(card);
-            });
-        } else {
-            indices.forEach((index, position) => {
-                const card = this.createCard(this.currentCards[index], index, position);
-                cardStack.appendChild(card);
-            });
-        }
+        
+        // Only render the active/current card to avoid layout shifts from prev/next visuals
+        if (this.currentCards.length === 0) return;
+        const index = this.currentCardIndex;
+        const card = this.createCard(this.currentCards[index], index, 1);
+        cardStack.appendChild(card);
     }
 
     createCard(cardData, index, position) {
@@ -4337,30 +4334,48 @@ class QuickCardApp {
         // Get sentence based on current difficulty
         const sentenceData = cardData.sentences ? cardData.sentences[this.currentDifficulty] : null;
         
-        // Create front side (word only)
+        // Create front side
         const cardFront = document.createElement('div');
         cardFront.className = 'card-front';
-        cardFront.innerHTML = `
-            <div class="card-category">${categoryLabel}</div>
-            <div class="card-word">${cardData.word}</div>
-            <div class="card-translation">${cardData.translation}</div>
-            ${cardData.pinyin ? `<div class="card-pinyin">${cardData.pinyin}</div>` : ''}
-        `;
+        if (this.currentMode === 'test') {
+            // Test mode: show only English (translation) on front
+            cardFront.innerHTML = `
+                <div class="card-category">${categoryLabel}</div>
+                <div class="card-word">${cardData.translation}</div>
+            `;
+        } else {
+            // Learn mode: show word, translation, pinyin
+            cardFront.innerHTML = `
+                <div class="card-category">${categoryLabel}</div>
+                <div class="card-word">${cardData.word}</div>
+                <div class="card-translation">${cardData.translation}</div>
+                ${cardData.pinyin ? `<div class="card-pinyin">${cardData.pinyin}</div>` : ''}
+            `;
+        }
 
-        // Create back side (sentence)
+        // Create back side
         const cardBack = document.createElement('div');
         cardBack.className = 'card-back';
-        cardBack.innerHTML = `
-            <div class="card-category">${categoryLabel}</div>
-            <div class="card-word">${cardData.word}</div>
-            <div class="card-translation">${cardData.translation}</div>
-            ${cardData.pinyin ? `<div class="card-pinyin">${cardData.pinyin}</div>` : ''}
-            ${sentenceData ? `
-                <div class="card-sentence">${sentenceData.sentence}</div>
-                ${this.currentLanguage === 'chinese' && sentenceData.pinyin ? `<div class="card-sentence-pinyin">${sentenceData.pinyin}</div>` : ''}
-                <div class="card-sentence-translation">${sentenceData.translation}</div>
-            ` : ''}
-        `;
+        if (this.currentMode === 'test') {
+            // Test mode: show only the foreign word (no sentences, no pinyin)
+            cardBack.innerHTML = `
+                <div class="card-category">${categoryLabel}</div>
+                <div class="card-word">${cardData.word}</div>
+            `;
+        } else {
+            // Learn mode: show word details and sentence
+            cardBack.innerHTML = `
+                <div class="card-category">${categoryLabel}</div>
+                <div class="card-word">${cardData.word}</div>
+                <div class="card-translation">${cardData.translation}</div>
+                ${cardData.pinyin ? `<div class="card-pinyin">${cardData.pinyin}</div>` : ''}
+                ${sentenceData ? `
+                    <div class="card-sentence">${sentenceData.sentence}</div>
+                    ${this.currentLanguage === 'chinese' && sentenceData.pinyin ? `<div class="card-sentence-pinyin">${sentenceData.pinyin}</div>` : ''}
+                    <div class="card-sentence-translation">${sentenceData.translation}</div>
+                ` : ''}
+            `;
+        }
 
         card.appendChild(cardFront);
         card.appendChild(cardBack);
@@ -4617,6 +4632,10 @@ class QuickCardApp {
         
         if (this.isCardFlipped) {
             activeCard.classList.add('flipped');
+            // In Test mode, play the word audio upon reveal
+            if (this.currentMode === 'test') {
+                this.playCurrentAudio();
+            }
         } else {
             activeCard.classList.remove('flipped');
         }
@@ -4638,11 +4657,17 @@ class QuickCardApp {
         let textToSpeak = currentCard.word;
         let utterance;
 
-        // If card is flipped, play sentence; otherwise play word
-        if (this.isCardFlipped && currentCard.sentences) {
-            const sentenceData = currentCard.sentences[this.currentDifficulty];
-            if (sentenceData) {
-                textToSpeak = sentenceData.sentence;
+        // Mode-specific audio text
+        if (this.currentMode === 'test') {
+            // In Test mode, always play the foreign word
+            textToSpeak = currentCard.word;
+        } else {
+            // Learn mode: If flipped, play sentence; otherwise play word
+            if (this.isCardFlipped && currentCard.sentences) {
+                const sentenceData = currentCard.sentences[this.currentDifficulty];
+                if (sentenceData) {
+                    textToSpeak = sentenceData.sentence;
+                }
             }
         }
 
@@ -4846,6 +4871,11 @@ class QuickCardApp {
         // Update language buttons
         document.querySelectorAll('.lang-btn').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.lang === this.currentLanguage);
+        });
+
+        // Update mode buttons (in modal)
+        document.querySelectorAll('.mode-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.mode === this.currentMode);
         });
 
         // Update difficulty buttons
