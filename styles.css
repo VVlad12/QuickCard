@@ -308,6 +308,32 @@ body {
     transform: scale(0.95);
 }
 
+.icon-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+  
+.icon-button:hover {
+background-color: #f5f5f5;
+}
+
+.house-icon {
+width: 24px;
+height: 24px;
+display: block;
+}
+  
+  
+
 /* Modal Styles */
 .modal {
     position: fixed;
