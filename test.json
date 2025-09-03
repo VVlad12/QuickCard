@@ -5074,5 +5074,395 @@
                 }
               }
         ]
-    }
+    },
+    "danish": {
+    "house": [
+      {
+        "word": "hus",
+        "translation": "house",
+        "category": "house",
+        "sentences": {
+          "basic": {
+            "sentence": "Det er et stort hus.",
+            "translation": "It is a big house."
+          },
+          "intermediate": {
+            "sentence": "Familien bor i et gult hus.",
+            "translation": "The family lives in a yellow house."
+          },
+          "advanced": {
+            "sentence": "Arkitekten tegnede et moderne hus med store vinduer.",
+            "translation": "The architect designed a modern house with large windows."
+          }
+        }
+      },
+      {
+        "word": "dør",
+        "translation": "door",
+        "category": "house",
+        "sentences": {
+          "basic": {
+            "sentence": "Luk døren, tak.",
+            "translation": "Close the door, please."
+          },
+          "intermediate": {
+            "sentence": "Hoveddøren er lavet af træ.",
+            "translation": "The main door is made of wood."
+          },
+          "advanced": {
+            "sentence": "Den gamle dør knirkede, da den blev åbnet.",
+            "translation": "The old door creaked when it was opened."
+          }
+        }
+      },
+      {
+        "word": "vindue",
+        "translation": "window",
+        "category": "house",
+        "sentences": {
+          "basic": {
+            "sentence": "Kig ud ad vinduet.",
+            "translation": "Look out the window."
+          },
+          "intermediate": {
+            "sentence": "Vinduet i stuen er meget stort.",
+            "translation": "The window in the living room is very large."
+          },
+          "advanced": {
+            "sentence": "Rengøring af vinduerne er en weekendopgave.",
+            "translation": "Cleaning the windows is a weekend task."
+          }
+        }
+      },
+      {
+        "word": "tag",
+        "translation": "roof",
+        "category": "house",
+        "sentences": {
+          "basic": {
+            "sentence": "Taget er rødt.",
+            "translation": "The roof is red."
+          },
+          "intermediate": {
+            "sentence": "Der er sne på taget om vinteren.",
+            "translation": "There is snow on the roof in the winter."
+          },
+          "advanced": {
+            "sentence": "Taget skal repareres efter stormen.",
+            "translation": "The roof needs to be repaired after the storm."
+          }
+        }
+      },
+      {
+        "word": "have",
+        "translation": "garden",
+        "category": "house",
+        "sentences": {
+          "basic": {
+            "sentence": "Børnene leger i haven.",
+            "translation": "The children are playing in the garden."
+          },
+          "intermediate": {
+            "sentence": "Vi har mange blomster i vores have.",
+            "translation": "We have many flowers in our garden."
+          },
+          "advanced": {
+            "sentence": "At arbejde i haven er en afslappende aktivitet.",
+            "translation": "Working in the garden is a relaxing activity."
+          }
+        }
+      }
+    ],
+    "activities": [
+      {
+        "word": "løbe",
+        "translation": "to run",
+        "category": "activities",
+        "sentences": {
+          "basic": {
+            "sentence": "Jeg kan lide at løbe.",
+            "translation": "I like to run."
+          },
+          "intermediate": {
+            "sentence": "Han løber en tur hver morgen.",
+            "translation": "He goes for a run every morning."
+          },
+          "advanced": {
+            "sentence": "At løbe et maraton kræver megen træning.",
+            "translation": "Running a marathon requires a lot of training."
+          }
+        }
+      },
+      {
+        "word": "svømme",
+        "translation": "to swim",
+        "category": "activities",
+        "sentences": {
+          "basic": {
+            "sentence": "Kan du svømme?",
+            "translation": "Can you swim?"
+          },
+          "intermediate": {
+            "sentence": "Vi svømmer i havet om sommeren.",
+            "translation": "We swim in the sea in the summer."
+          },
+          "advanced": {
+            "sentence": "At svømme er en god form for motion for hele kroppen.",
+            "translation": "Swimming is a good form of exercise for the whole body."
+          }
+        }
+      },
+      {
+        "word": "cykle",
+        "translation": "to cycle",
+        "category": "activities",
+        "sentences": {
+          "basic": {
+            "sentence": "Jeg cykler til arbejde.",
+            "translation": "I cycle to work."
+          },
+          "intermediate": {
+            "sentence": "Danmark er et godt land at cykle i.",
+            "translation": "Denmark is a good country to cycle in."
+          },
+          "advanced": {
+            "sentence": "At cykle i byen kan være hurtigere end at tage bilen.",
+            "translation": "Cycling in the city can be faster than taking the car."
+          }
+        }
+      },
+      {
+        "word": "læse",
+        "translation": "to read",
+        "category": "activities",
+        "sentences": {
+          "basic": {
+            "sentence": "Jeg læser en bog.",
+            "translation": "I am reading a book."
+          },
+          "intermediate": {
+            "sentence": "Hun elsker at læse romaner.",
+            "translation": "She loves to read novels."
+          },
+          "advanced": {
+            "sentence": "At læse udvider ens horisont og ordforråd.",
+            "translation": "Reading expands one's horizon and vocabulary."
+          }
+        }
+      },
+      {
+        "word": "skrive",
+        "translation": "to write",
+        "category": "activities",
+        "sentences": {
+          "basic": {
+            "sentence": "Han skriver et brev.",
+            "translation": "He is writing a letter."
+          },
+          "intermediate": {
+            "sentence": "Forfatteren skriver en ny bog.",
+            "translation": "The author is writing a new book."
+          },
+          "advanced": {
+            "sentence": "At skrive dagbog kan være en god måde at reflektere på.",
+            "translation": "Writing a diary can be a good way to reflect."
+          }
+        }
+      }
+    ],
+    "verbs": [
+      {
+        "word": "være",
+        "translation": "to be",
+        "category": "verbs",
+        "sentences": {
+          "basic": {
+            "sentence": "Jeg er glad.",
+            "translation": "I am happy."
+          },
+          "intermediate": {
+            "sentence": "Det er vigtigt at være ærlig.",
+            "translation": "It is important to be honest."
+          },
+          "advanced": {
+            "sentence": "At være eller ikke at være, det er spørgsmålet.",
+            "translation": "To be or not to be, that is the question."
+          }
+        }
+      },
+      {
+        "word": "have",
+        "translation": "to have",
+        "category": "verbs",
+        "sentences": {
+          "basic": {
+            "sentence": "Jeg har en hund.",
+            "translation": "I have a dog."
+          },
+          "intermediate": {
+            "sentence": "Vi har et møde i morgen.",
+            "translation": "We have a meeting tomorrow."
+          },
+          "advanced": {
+            "sentence": "At have gode venner er en stor rigdom.",
+            "translation": "Having good friends is a great wealth."
+          }
+        }
+      },
+      {
+        "word": "spise",
+        "translation": "to eat",
+        "category": "verbs",
+        "sentences": {
+          "basic": {
+            "sentence": "Vi spiser aftensmad.",
+            "translation": "We are eating dinner."
+          },
+          "intermediate": {
+            "sentence": "Hvad vil du gerne spise?",
+            "translation": "What would you like to eat?"
+          },
+          "advanced": {
+            "sentence": "Det er vigtigt at spise en sund og varieret kost.",
+            "translation": "It is important to eat a healthy and varied diet."
+          }
+        }
+      },
+      {
+        "word": "drikke",
+        "translation": "to drink",
+        "category": "verbs",
+        "sentences": {
+          "basic": {
+            "sentence": "Jeg drikker vand.",
+            "translation": "I am drinking water."
+          },
+          "intermediate": {
+            "sentence": "Vil du have noget at drikke?",
+            "translation": "Would you like something to drink?"
+          },
+          "advanced": {
+            "sentence": "Man skal huske at drikke nok væske i løbet af dagen.",
+            "translation": "One should remember to drink enough fluids during the day."
+          }
+        }
+      },
+      {
+        "word": "sove",
+        "translation": "to sleep",
+        "category": "verbs",
+        "sentences": {
+          "basic": {
+            "sentence": "Babyen sover.",
+            "translation": "The baby is sleeping."
+          },
+          "intermediate": {
+            "sentence": "Jeg skal sove tidligt i aften.",
+            "translation": "I need to sleep early tonight."
+          },
+          "advanced": {
+            "sentence": "En god nats søvn er afgørende for helbredet.",
+            "translation": "A good night's sleep is crucial for health."
+          }
+        }
+      }
+    ],
+    "food": [
+      {
+        "word": "brød",
+        "translation": "bread",
+        "category": "food",
+        "sentences": {
+          "basic": {
+            "sentence": "Jeg spiser brød med ost.",
+            "translation": "I am eating bread with cheese."
+          },
+          "intermediate": {
+            "sentence": "Dansk rugbrød er meget populært.",
+            "translation": "Danish rye bread is very popular."
+          },
+          "advanced": {
+            "sentence": "Bageren bager frisk brød hver morgen.",
+            "translation": "The baker bakes fresh bread every morning."
+          }
+        }
+      },
+      {
+        "word": "ost",
+        "translation": "cheese",
+        "category": "food",
+        "sentences": {
+          "basic": {
+            "sentence": "Jeg kan lide ost.",
+            "translation": "I like cheese."
+          },
+          "intermediate": {
+            "sentence": "Vil du have en skive ost?",
+            "translation": "Would you like a slice of cheese?"
+          },
+          "advanced": {
+            "sentence": "Danmark er kendt for sine mange forskellige slags oste.",
+            "translation": "Denmark is known for its many different kinds of cheese."
+          }
+        }
+      },
+      {
+        "word": "mælk",
+        "translation": "milk",
+        "category": "food",
+        "sentences": {
+          "basic": {
+            "sentence": "Jeg drikker et glas mælk.",
+            "translation": "I am drinking a glass of milk."
+          },
+          "intermediate": {
+            "sentence": "Husk at købe mælk i supermarkedet.",
+            "translation": "Remember to buy milk at the supermarket."
+          },
+          "advanced": {
+            "sentence": "Mælk er en god kilde til calcium.",
+            "translation": "Milk is a good source of calcium."
+          }
+        }
+      },
+      {
+        "word": "frugt",
+        "translation": "fruit",
+        "category": "food",
+        "sentences": {
+          "basic": {
+            "sentence": "Spis din frugt.",
+            "translation": "Eat your fruit."
+          },
+          "intermediate": {
+            "sentence": "Frugt er sundt og lækkert.",
+            "translation": "Fruit is healthy and delicious."
+          },
+          "advanced": {
+            "sentence": "En varieret kost bør indeholde masser af frugt og grøntsager.",
+            "translation": "A varied diet should include plenty of fruit and vegetables."
+          }
+        }
+      },
+      {
+        "word": "grøntsager",
+        "translation": "vegetables",
+        "category": "food",
+        "sentences": {
+          "basic": {
+            "sentence": "Jeg kan lide grøntsager.",
+            "translation": "I like vegetables."
+          },
+          "intermediate": {
+            "sentence": "Det er vigtigt at spise mange grøntsager.",
+            "translation": "It is important to eat a lot of vegetables."
+          },
+          "advanced": {
+            "sentence": "Friske grøntsager fra haven smager bedst.",
+            "translation": "Fresh vegetables from the garden taste the best."
+          }
+        }
+      }
+    ]
+  }
 }

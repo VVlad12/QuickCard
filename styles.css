@@ -321,6 +321,20 @@ body {
     transition: background-color 0.3s ease;
     z-index: 1000;
   }
+
+  .icon-button_refresh{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
   
 .icon-button:hover {
 background-color: #f5f5f5;
@@ -462,6 +476,12 @@ display: block;
     flex-wrap: wrap;
 }
 
+/* .controls-card {
+    position: absolute;
+    z-index: 99;
+    bottom: 10px;
+} */
+
 .control-btn {
     width: 50px;
     height: 50px;
@@ -475,6 +495,8 @@ display: block;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     color: #667eea;
+    z-index: 99;
+    position: relative;
 }
 
 .control-btn:hover {

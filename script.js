@@ -88,10 +88,20 @@ class QuickCardApp {
     }
 
     loadCards() {
+      console.log(this.currentCategory)
         if (!this.currentLanguage) return;
-        if (!vocabulary || !vocabulary[this.currentLanguage] || !vocabulary[this.currentLanguage][this.currentCategory]) {
+         
+        if (this.currentCategory == 'mix') {
+          console.log("here");
+          this.currentCards = Object.values(vocabulary[this.currentLanguage]).flat();
+          console.log(this.currentCards);
+        }
+        else if (!vocabulary || !vocabulary[this.currentLanguage] || !vocabulary[this.currentLanguage][this.currentCategory]) {
+          console.log("void")
             this.currentCards = [];
-        } else {
+        }
+        else {
+            console.log("else")
             this.currentCards = vocabulary[this.currentLanguage][this.currentCategory];
         }
         this.currentCardIndex = 0;
@@ -101,7 +111,7 @@ class QuickCardApp {
     }
 
     renderCards() {
-        const cardStack = document.querySelector('.card-stack');
+        const cardStack = document.querySelector('.card-stack-sub');
         cardStack.innerHTML = '';
         
         // Only render the active/current card to avoid layout shifts from prev/next visuals
@@ -113,6 +123,11 @@ class QuickCardApp {
 
     createCard(cardData, index, position) {
         const card = document.createElement('div');
+
+        // const listenbtn = document.getElementById('soundBtn');
+        // listenbtn.id = 'soundBtn';
+        
+
         card.className = 'card';
         card.dataset.index = index;
 
@@ -147,6 +162,8 @@ class QuickCardApp {
                 ${cardData.pinyin ? `<div class="card-pinyin">${cardData.pinyin}</div>` : ''}
             `;
         }
+
+        // cardFront.appendChild(listenbtn);
 
         // Create back side
         const cardBack = document.createElement('div');
@@ -183,7 +200,8 @@ class QuickCardApp {
             house: 'House',
             activities: 'Activities',
             verbs: 'Verbs',
-            food: 'Food'
+            food: 'Food',
+            mix: 'Mix'
         };
         return labels[category] || category;
     }
@@ -220,6 +238,15 @@ class QuickCardApp {
                 this.loadCards();
                 this.updateUI();
             });
+        });
+
+        document.getElementById('refreshButton').addEventListener('click', () =>{
+            this.currentCards = this.currentCards.sort(() => Math.random() - 0.5);
+            this.currentCards = this.currentCards.slice(0, 10);
+            this.currentCardIndex = 0;
+            this.isCardFlipped = false; // Reset flip state
+            this.renderCards();
+            this.updateProgress();
         });
 
         // Navigation buttons
@@ -722,3 +749,5 @@ document.getElementById('homeButton').addEventListener('click', function () {
   // location.reload(); 
   document.getElementById('languageModal').style.display = 'flex';
 });
+
+
