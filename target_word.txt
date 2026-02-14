@@ -1,0 +1,314 @@
+kitchen
+bedroom
+bathroom
+living room
+dining room
+garage
+attic
+basement
+roof
+wall
+floor
+ceiling
+door
+window
+stairs
+hallway
+closet
+balcony
+patio
+garden
+fence
+gate
+driveway
+porch
+chimney
+fireplace
+furniture
+sofa
+couch
+armchair
+table
+chair
+desk
+bed
+mattress
+pillow
+blanket
+sheet
+curtain
+carpet
+rug
+lamp
+light
+switch
+outlet
+plug
+refrigerator
+stove
+oven
+microwave
+dishwasher
+sink
+faucet
+cabinet
+drawer
+shelf
+counter
+pantry
+freezer
+toaster
+blender
+mixer
+kettle
+coffeemaker
+washing machine
+dryer
+iron
+vacuum
+broom
+mop
+bucket
+dustpan
+sponge
+towel
+soap
+shampoo
+toilet
+shower
+bathtub
+mirror
+television
+remote
+computer
+router
+phone
+charger
+clock
+alarm
+fan
+heater
+air conditioner
+thermostat
+radiator
+mailbox
+doorbell
+lock
+key
+handle
+knob
+hinge
+frame
+tile
+brick
+paint
+wallpaper
+nail
+screw
+hammer
+screwdriver
+drill
+ladder
+toolbox
+pliers
+wrench
+tape
+glue
+scissors
+knife
+fork
+spoon
+plate
+bowl
+cup
+glass
+mug
+pot
+pan
+lid
+tray
+cutting board
+colander
+spatula
+ladle
+whisk
+grater
+peeler
+can opener
+bottle opener
+corkscrew
+napkin
+tablecloth
+placemat
+vase
+plant
+flower
+candle
+picture
+frame
+decoration
+ornament
+cushion
+throw
+bookshelf
+wardrobe
+dresser
+nightstand
+headboard
+footboard
+crib
+cradle
+playpen
+highchair
+stool
+bench
+ottoman
+recliner
+futon
+bunk bed
+mattress pad
+comforter
+duvet
+pillowcase
+bedspread
+quilt
+shutter
+blind
+shade
+screen
+awning
+gutter
+downspout
+drain
+pipe
+valve
+water heater
+boiler
+furnace
+duct
+vent
+filter
+insulation
+foundation
+beam
+column
+joist
+rafter
+shingle
+siding
+stucco
+concrete
+mortar
+grout
+caulk
+weatherstrip
+threshold
+step
+railing
+banister
+newel
+landing
+foyer
+entryway
+mudroom
+laundry room
+utility room
+storage room
+guest room
+master bedroom
+nursery
+office
+study
+library
+den
+sunroom
+conservatory
+loft
+mezzanine
+crawl space
+shed
+greenhouse
+gazebo
+pergola
+deck
+terrace
+yard
+lawn
+flowerbed
+hedge
+bush
+tree
+sprinkler
+hose
+rake
+shovel
+wheelbarrow
+lawnmower
+trimmer
+pruner
+trowel
+watering can
+fertilizer
+mulch
+compost
+soil
+pot
+planter
+birdbath
+fountain
+pond
+pool
+hot tub
+sauna
+gym
+basement bar
+wine cellar
+pantry shelf
+spice rack
+dish rack
+utensil holder
+paper towel holder
+trash can
+recycling bin
+compost bin
+laundry basket
+hamper
+drying rack
+ironing board
+clothes hanger
+shoe rack
+coat rack
+umbrella stand
+key holder
+mail organizer
+bulletin board
+whiteboard
+chalkboard
+calendar
+thermometer
+barometer
+smoke detector
+carbon monoxide detector
+fire extinguisher
+first aid kit
+flashlight
+battery
+extension cord
+power strip
+surge protector
+light bulb
+chandelier
+pendant light
+sconce
+track lighting
+recessed light
+dimmer
+nightlight
+desk lamp
+floor lamp
+table lamp
+ceiling fan
+exhaust fan
+dehumidifier
+humidifier
+air purifier

@@ -25,7 +25,9 @@ body {
 }
 
 .header {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 
@@ -36,7 +38,33 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: 5px;
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.header-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.header-btn:hover {
+    background-color: #f5f5f5;
+}
+
+.header-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
 }
 
 .subtitle {
@@ -308,43 +336,6 @@ body {
     transform: scale(0.95);
 }
 
-.icon-button {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 10px;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: background-color 0.3s ease;
-    z-index: 1000;
-  }
-
-  .icon-button_refresh{
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 10px;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: background-color 0.3s ease;
-    z-index: 1000;
-  }
-  
-.icon-button:hover {
-background-color: #f5f5f5;
-}
-
-.house-icon {
-width: 24px;
-height: 24px;
-display: block;
-}
   
   
 

@@ -1,0 +1,2513 @@
+House:kitchen
+House:bedroom
+House:bathroom
+House:living room
+House:dining room
+House:garage
+House:attic
+House:basement
+House:roof
+House:wall
+House:floor
+House:ceiling
+House:door
+House:window
+House:stairs
+House:hallway
+House:closet
+House:balcony
+House:patio
+House:garden
+House:fence
+House:gate
+House:driveway
+House:porch
+House:chimney
+House:fireplace
+House:furniture
+House:sofa
+House:couch
+House:armchair
+House:table
+House:chair
+House:desk
+House:bed
+House:mattress
+House:pillow
+House:blanket
+House:sheet
+House:curtain
+House:carpet
+House:rug
+House:lamp
+House:light
+House:switch
+House:outlet
+House:plug
+House:refrigerator
+House:stove
+House:oven
+House:microwave
+House:dishwasher
+House:sink
+House:faucet
+House:cabinet
+House:drawer
+House:shelf
+House:counter
+House:pantry
+House:freezer
+House:toaster
+House:blender
+House:mixer
+House:kettle
+House:coffeemaker
+House:washing machine
+House:dryer
+House:iron
+House:vacuum
+House:broom
+House:mop
+House:bucket
+House:dustpan
+House:sponge
+House:towel
+House:soap
+House:shampoo
+House:toilet
+House:shower
+House:bathtub
+House:mirror
+House:television
+House:remote
+House:computer
+House:router
+House:phone
+House:charger
+House:clock
+House:alarm
+House:fan
+House:heater
+House:air conditioner
+House:thermostat
+House:radiator
+House:mailbox
+House:doorbell
+House:lock
+House:key
+House:handle
+House:knob
+House:hinge
+House:frame
+House:tile
+House:brick
+House:paint
+House:wallpaper
+House:nail
+House:screw
+House:hammer
+House:screwdriver
+House:drill
+House:ladder
+House:toolbox
+House:pliers
+House:wrench
+House:tape
+House:glue
+House:scissors
+House:knife
+House:fork
+House:spoon
+House:plate
+House:bowl
+House:cup
+House:glass
+House:mug
+House:pot
+House:pan
+House:lid
+House:tray
+House:cutting board
+House:colander
+House:spatula
+House:ladle
+House:whisk
+House:grater
+House:peeler
+House:can opener
+House:bottle opener
+House:corkscrew
+House:napkin
+House:tablecloth
+House:placemat
+House:vase
+House:plant
+House:flower
+House:candle
+House:picture
+House:frame
+House:decoration
+House:ornament
+House:cushion
+House:throw
+House:bookshelf
+House:wardrobe
+House:dresser
+House:nightstand
+House:headboard
+House:footboard
+House:crib
+House:cradle
+House:playpen
+House:highchair
+House:stool
+House:bench
+House:ottoman
+House:recliner
+House:futon
+House:bunk bed
+House:mattress pad
+House:comforter
+House:duvet
+House:pillowcase
+House:bedspread
+House:quilt
+House:shutter
+House:blind
+House:shade
+House:screen
+House:awning
+House:gutter
+House:downspout
+House:drain
+House:pipe
+House:valve
+House:water heater
+House:boiler
+House:furnace
+House:duct
+House:vent
+House:filter
+House:insulation
+House:foundation
+House:beam
+House:column
+House:joist
+House:rafter
+House:shingle
+House:siding
+House:stucco
+House:concrete
+House:mortar
+House:grout
+House:caulk
+House:weatherstrip
+House:threshold
+House:step
+House:railing
+House:banister
+House:newel
+House:landing
+House:foyer
+House:entryway
+House:mudroom
+House:laundry room
+House:utility room
+House:storage room
+House:guest room
+House:master bedroom
+House:nursery
+House:office
+House:study
+House:library
+House:den
+House:sunroom
+House:conservatory
+House:loft
+House:mezzanine
+House:crawl space
+House:shed
+House:greenhouse
+House:gazebo
+House:pergola
+House:deck
+House:terrace
+House:yard
+House:lawn
+House:flowerbed
+House:hedge
+House:bush
+House:tree
+House:sprinkler
+House:hose
+House:rake
+House:shovel
+House:wheelbarrow
+House:lawnmower
+House:trimmer
+House:pruner
+House:trowel
+House:watering can
+House:fertilizer
+House:mulch
+House:compost
+House:soil
+House:pot
+House:planter
+House:birdbath
+House:fountain
+House:pond
+House:pool
+House:hot tub
+House:sauna
+House:gym
+House:basement bar
+House:wine cellar
+House:pantry shelf
+House:spice rack
+House:dish rack
+House:utensil holder
+House:paper towel holder
+House:trash can
+House:recycling bin
+House:compost bin
+House:laundry basket
+House:hamper
+House:drying rack
+House:ironing board
+House:clothes hanger
+House:shoe rack
+House:coat rack
+House:umbrella stand
+House:key holder
+House:mail organizer
+House:bulletin board
+House:whiteboard
+House:chalkboard
+House:calendar
+House:thermometer
+House:barometer
+House:smoke detector
+House:carbon monoxide detector
+House:fire extinguisher
+House:first aid kit
+House:flashlight
+House:battery
+House:extension cord
+House:power strip
+House:surge protector
+House:light bulb
+House:chandelier
+House:pendant light
+House:sconce
+House:track lighting
+House:recessed light
+House:dimmer
+House:nightlight
+House:desk lamp
+House:floor lamp
+House:table lamp
+House:ceiling fan
+House:exhaust fan
+House:dehumidifier
+House:humidifier
+House:air purifier
+Activity:swimming
+Activity:running
+Activity:walking
+Activity:hiking
+Activity:cycling
+Activity:dancing
+Activity:singing
+Activity:reading
+Activity:writing
+Activity:drawing
+Activity:painting
+Activity:cooking
+Activity:baking
+Activity:gardening
+Activity:fishing
+Activity:camping
+Activity:climbing
+Activity:skiing
+Activity:snowboarding
+Activity:skating
+Activity:surfing
+Activity:diving
+Activity:snorkeling
+Activity:kayaking
+Activity:canoeing
+Activity:sailing
+Activity:rowing
+Activity:jogging
+Activity:sprinting
+Activity:stretching
+Activity:yoga
+Activity:meditation
+Activity:pilates
+Activity:aerobics
+Activity:weightlifting
+Activity:boxing
+Activity:wrestling
+Activity:martial arts
+Activity:karate
+Activity:judo
+Activity:taekwondo
+Activity:fencing
+Activity:archery
+Activity:shooting
+Activity:hunting
+Activity:basketball
+Activity:football
+Activity:soccer
+Activity:tennis
+Activity:badminton
+Activity:volleyball
+Activity:baseball
+Activity:softball
+Activity:golf
+Activity:hockey
+Activity:rugby
+Activity:cricket
+Activity:bowling
+Activity:billiards
+Activity:darts
+Activity:chess
+Activity:checkers
+Activity:poker
+Activity:cards
+Activity:puzzles
+Activity:crossword
+Activity:sudoku
+Activity:video games
+Activity:board games
+Activity:watching TV
+Activity:watching movies
+Activity:listening to music
+Activity:playing guitar
+Activity:playing piano
+Activity:playing drums
+Activity:playing violin
+Activity:photography
+Activity:filmmaking
+Activity:blogging
+Activity:vlogging
+Activity:podcasting
+Activity:streaming
+Activity:coding
+Activity:programming
+Activity:designing
+Activity:crafting
+Activity:knitting
+Activity:crocheting
+Activity:sewing
+Activity:embroidery
+Activity:quilting
+Activity:woodworking
+Activity:metalworking
+Activity:pottery
+Activity:sculpting
+Activity:origami
+Activity:calligraphy
+Activity:journaling
+Activity:scrapbooking
+Activity:collecting
+Activity:stamp collecting
+Activity:coin collecting
+Activity:birdwatching
+Activity:stargazing
+Activity:astronomy
+Activity:volunteering
+Activity:mentoring
+Activity:tutoring
+Activity:teaching
+Activity:coaching
+Activity:training
+Activity:exercising
+Activity:working out
+Activity:bodybuilding
+Activity:powerlifting
+Activity:crossfit
+Activity:spinning
+Activity:zumba
+Activity:kickboxing
+Activity:rock climbing
+Activity:bouldering
+Activity:rappelling
+Activity:paragliding
+Activity:skydiving
+Activity:bungee jumping
+Activity:zip lining
+Activity:rafting
+Activity:jet skiing
+Activity:water skiing
+Activity:wakeboarding
+Activity:windsurfing
+Activity:kitesurfing
+Activity:paddleboarding
+Activity:scuba diving
+Activity:freediving
+Activity:spearfishing
+Activity:ice fishing
+Activity:fly fishing
+Activity:horseback riding
+Activity:polo
+Activity:rodeo
+Activity:racing
+Activity:karting
+Activity:motorcycling
+Activity:mountain biking
+Activity:BMX
+Activity:skateboarding
+Activity:rollerblading
+Activity:scootering
+Activity:parkour
+Activity:gymnastics
+Activity:trampolining
+Activity:diving
+Activity:synchronized swimming
+Activity:water polo
+Activity:handball
+Activity:squash
+Activity:racquetball
+Activity:table tennis
+Activity:pickleball
+Activity:croquet
+Activity:bocce
+Activity:frisbee
+Activity:ultimate frisbee
+Activity:disc golf
+Activity:lacrosse
+Activity:field hockey
+Activity:ice hockey
+Activity:curling
+Activity:figure skating
+Activity:speed skating
+Activity:cross-country skiing
+Activity:downhill skiing
+Activity:sledding
+Activity:tobogganing
+Activity:snowshoeing
+Activity:ice climbing
+Activity:mountaineering
+Activity:trekking
+Activity:backpacking
+Activity:orienteering
+Activity:geocaching
+Activity:metal detecting
+Activity:treasure hunting
+Activity:exploring
+Activity:sightseeing
+Activity:touring
+Activity:traveling
+Activity:road tripping
+Activity:flying
+Activity:cruising
+Activity:sunbathing
+Activity:beach going
+Activity:picnicking
+Activity:barbecuing
+Activity:grilling
+Activity:entertaining
+Activity:hosting
+Activity:partying
+Activity:celebrating
+Activity:socializing
+Activity:networking
+Activity:dating
+Activity:dining out
+Activity:cafe hopping
+Activity:wine tasting
+Activity:beer tasting
+Activity:cocktail making
+Activity:bartending
+Activity:food tasting
+Activity:restaurant reviewing
+Activity:shopping
+Activity:window shopping
+Activity:thrift shopping
+Activity:antiquing
+Activity:flea marketing
+Activity:garage saling
+Activity:online shopping
+Activity:browsing
+Activity:researching
+Activity:studying
+Activity:learning
+Activity:practicing
+Activity:rehearsing
+Activity:performing
+Activity:acting
+Activity:theater
+Activity:comedy
+Activity:improv
+Activity:stand-up
+Activity:magic
+Activity:juggling
+Activity:circus arts
+Activity:acrobatics
+Activity:contortion
+Activity:ballet
+Activity:tap dancing
+Activity:ballroom dancing
+Activity:salsa dancing
+Activity:swing dancing
+Activity:hip hop dancing
+Activity:breakdancing
+Activity:line dancing
+Activity:square dancing
+Activity:folk dancing
+Activity:clubbing
+Activity:karaoke
+Activity:trivia
+Activity:pub quiz
+Activity:escape rooms
+Activity:laser tag
+Activity:paintball
+Activity:airsoft
+Activity:go-karting
+Activity:mini golf
+Activity:arcade gaming
+Activity:amusement parks
+Activity:theme parks
+Activity:water parks
+Activity:zoo visiting
+Activity:aquarium visiting
+Activity:museum visiting
+Activity:gallery visiting
+Activity:concert going
+Activity:festival attending
+Activity:fair going
+Activity:carnival attending
+Activity:parade watching
+Activity:fireworks watching
+Activity:sports watching
+Activity:game attending
+Activity:betting
+Activity:gambling
+Activity:lottery
+Activity:raffling
+Activity:auction bidding
+Activity:dog walking
+Activity:pet sitting
+Activity:animal training
+Activity:grooming
+Activity:babysitting
+Activity:childcare
+Activity:eldercare
+Activity:caregiving
+Activity:nursing
+Activity:healing
+Activity:therapy
+Activity:counseling
+Activity:consulting
+Verb:be
+Verb:have
+Verb:do
+Verb:say
+Verb:go
+Verb:get
+Verb:make
+Verb:know
+Verb:think
+Verb:take
+Verb:see
+Verb:come
+Verb:want
+Verb:look
+Verb:use
+Verb:find
+Verb:give
+Verb:tell
+Verb:work
+Verb:call
+Verb:try
+Verb:ask
+Verb:need
+Verb:feel
+Verb:become
+Verb:leave
+Verb:put
+Verb:mean
+Verb:keep
+Verb:let
+Verb:begin
+Verb:seem
+Verb:help
+Verb:show
+Verb:hear
+Verb:play
+Verb:run
+Verb:move
+Verb:live
+Verb:believe
+Verb:hold
+Verb:bring
+Verb:happen
+Verb:write
+Verb:provide
+Verb:sit
+Verb:stand
+Verb:lose
+Verb:pay
+Verb:meet
+Verb:include
+Verb:continue
+Verb:set
+Verb:learn
+Verb:change
+Verb:lead
+Verb:understand
+Verb:watch
+Verb:follow
+Verb:stop
+Verb:create
+Verb:speak
+Verb:read
+Verb:allow
+Verb:add
+Verb:spend
+Verb:grow
+Verb:open
+Verb:walk
+Verb:win
+Verb:offer
+Verb:remember
+Verb:love
+Verb:consider
+Verb:appear
+Verb:buy
+Verb:wait
+Verb:serve
+Verb:die
+Verb:send
+Verb:expect
+Verb:build
+Verb:stay
+Verb:fall
+Verb:cut
+Verb:reach
+Verb:kill
+Verb:remain
+Verb:suggest
+Verb:raise
+Verb:pass
+Verb:sell
+Verb:require
+Verb:report
+Verb:decide
+Verb:pull
+Verb:break
+Verb:carry
+Verb:eat
+Verb:drink
+Verb:sleep
+Verb:wake
+Verb:drive
+Verb:fly
+Verb:swim
+Verb:jump
+Verb:climb
+Verb:throw
+Verb:catch
+Verb:push
+Verb:hit
+Verb:kick
+Verb:touch
+Verb:smell
+Verb:taste
+Verb:listen
+Verb:dance
+Verb:sing
+Verb:draw
+Verb:paint
+Verb:cook
+Verb:clean
+Verb:wash
+Verb:dry
+Verb:iron
+Verb:fold
+Verb:hang
+Verb:wear
+Verb:dress
+Verb:undress
+Verb:shower
+Verb:bathe
+Verb:brush
+Verb:comb
+Verb:shave
+Verb:apply
+Verb:fix
+Verb:repair
+Verb:build
+Verb:destroy
+Verb:damage
+Verb:break
+Verb:tear
+Verb:rip
+Verb:bend
+Verb:twist
+Verb:turn
+Verb:spin
+Verb:roll
+Verb:slide
+Verb:glide
+Verb:float
+Verb:sink
+Verb:rise
+Verb:lift
+Verb:drop
+Verb:lower
+Verb:raise
+Verb:shake
+Verb:stir
+Verb:mix
+Verb:blend
+Verb:pour
+Verb:spill
+Verb:fill
+Verb:empty
+Verb:pack
+Verb:unpack
+Verb:wrap
+Verb:unwrap
+Verb:tie
+Verb:untie
+Verb:lock
+Verb:unlock
+Verb:close
+Verb:shut
+Verb:start
+Verb:finish
+Verb:complete
+Verb:end
+Verb:begin
+Verb:enter
+Verb:exit
+Verb:arrive
+Verb:depart
+Verb:return
+Verb:visit
+Verb:travel
+Verb:explore
+Verb:discover
+Verb:search
+Verb:seek
+Verb:hunt
+Verb:chase
+Verb:escape
+Verb:hide
+Verb:reveal
+Verb:expose
+Verb:cover
+Verb:uncover
+Verb:protect
+Verb:defend
+Verb:attack
+Verb:fight
+Verb:battle
+Verb:argue
+Verb:debate
+Verb:discuss
+Verb:negotiate
+Verb:agree
+Verb:disagree
+Verb:accept
+Verb:reject
+Verb:refuse
+Verb:deny
+Verb:confirm
+Verb:approve
+Verb:disapprove
+Verb:support
+Verb:oppose
+Verb:encourage
+Verb:discourage
+Verb:motivate
+Verb:inspire
+Verb:influence
+Verb:persuade
+Verb:convince
+Verb:advise
+Verb:recommend
+Verb:warn
+Verb:threaten
+Verb:promise
+Verb:guarantee
+Verb:assure
+Verb:comfort
+Verb:console
+Verb:calm
+Verb:relax
+Verb:stress
+Verb:worry
+Verb:fear
+Verb:scare
+Verb:frighten
+Verb:terrify
+Verb:shock
+Verb:surprise
+Verb:amaze
+Verb:impress
+Verb:disappoint
+Verb:satisfy
+Verb:please
+Verb:annoy
+Verb:irritate
+Verb:frustrate
+Verb:anger
+Verb:upset
+Verb:hurt
+Verb:harm
+Verb:heal
+Verb:cure
+Verb:treat
+Verb:diagnose
+Verb:examine
+Verb:test
+Verb:check
+Verb:verify
+Verb:confirm
+Verb:prove
+Verb:demonstrate
+Verb:illustrate
+Verb:explain
+Verb:describe
+Verb:define
+Verb:clarify
+Verb:simplify
+Verb:complicate
+Verb:solve
+Verb:resolve
+Verb:manage
+Verb:handle
+Verb:control
+Verb:operate
+Verb:function
+Verb:perform
+Verb:execute
+Verb:implement
+Verb:apply
+Verb:utilize
+Verb:employ
+Verb:hire
+Verb:fire
+Verb:quit
+Verb:resign
+Verb:retire
+Verb:promote
+Verb:demote
+Verb:transfer
+Verb:assign
+Verb:delegate
+Verb:supervise
+Verb:monitor
+Verb:evaluate
+Verb:assess
+Verb:measure
+Verb:calculate
+Verb:count
+Verb:estimate
+Verb:predict
+Verb:forecast
+Verb:plan
+Verb:organize
+Verb:arrange
+Verb:schedule
+Verb:coordinate
+Verb:collaborate
+Verb:cooperate
+Verb:participate
+Verb:contribute
+Verb:volunteer
+Verb:donate
+Verb:share
+Verb:distribute
+Verb:deliver
+Verb:ship
+Verb:transport
+Verb:transfer
+Verb:transmit
+Verb:broadcast
+Verb:publish
+Verb:print
+Verb:copy
+Verb:duplicate
+Verb:reproduce
+Verb:generate
+Verb:produce
+Verb:manufacture
+Verb:assemble
+Verb:construct
+Verb:design
+Verb:develop
+Verb:improve
+Verb:enhance
+Verb:upgrade
+Verb:update
+Verb:modify
+Verb:adjust
+Verb:adapt
+Verb:customize
+Verb:personalize
+Food:apple
+Food:banana
+Food:orange
+Food:grape
+Food:strawberry
+Food:blueberry
+Food:raspberry
+Food:blackberry
+Food:cherry
+Food:peach
+Food:plum
+Food:pear
+Food:mango
+Food:pineapple
+Food:watermelon
+Food:melon
+Food:cantaloupe
+Food:honeydew
+Food:kiwi
+Food:papaya
+Food:coconut
+Food:lemon
+Food:lime
+Food:grapefruit
+Food:tangerine
+Food:pomegranate
+Food:fig
+Food:date
+Food:apricot
+Food:nectarine
+Food:avocado
+Food:tomato
+Food:potato
+Food:carrot
+Food:onion
+Food:garlic
+Food:celery
+Food:cucumber
+Food:lettuce
+Food:spinach
+Food:kale
+Food:cabbage
+Food:broccoli
+Food:cauliflower
+Food:asparagus
+Food:zucchini
+Food:squash
+Food:pumpkin
+Food:eggplant
+Food:pepper
+Food:chili
+Food:corn
+Food:peas
+Food:beans
+Food:lentils
+Food:chickpeas
+Food:mushroom
+Food:artichoke
+Food:beet
+Food:radish
+Food:turnip
+Food:parsnip
+Food:sweet potato
+Food:yam
+Food:ginger
+Food:turmeric
+Food:leek
+Food:shallot
+Food:scallion
+Food:chive
+Food:parsley
+Food:cilantro
+Food:basil
+Food:mint
+Food:oregano
+Food:thyme
+Food:rosemary
+Food:sage
+Food:dill
+Food:tarragon
+Food:bay leaf
+Food:cinnamon
+Food:nutmeg
+Food:clove
+Food:cumin
+Food:paprika
+Food:pepper
+Food:salt
+Food:sugar
+Food:honey
+Food:syrup
+Food:molasses
+Food:vinegar
+Food:oil
+Food:butter
+Food:margarine
+Food:cream
+Food:milk
+Food:cheese
+Food:yogurt
+Food:sour cream
+Food:cottage cheese
+Food:ricotta
+Food:mozzarella
+Food:cheddar
+Food:parmesan
+Food:brie
+Food:gouda
+Food:feta
+Food:swiss
+Food:provolone
+Food:cream cheese
+Food:egg
+Food:chicken
+Food:turkey
+Food:duck
+Food:beef
+Food:pork
+Food:lamb
+Food:veal
+Food:venison
+Food:rabbit
+Food:ham
+Food:bacon
+Food:sausage
+Food:salami
+Food:pepperoni
+Food:hot dog
+Food:hamburger
+Food:steak
+Food:roast
+Food:ribs
+Food:chop
+Food:tenderloin
+Food:ground beef
+Food:meatball
+Food:meatloaf
+Food:fish
+Food:salmon
+Food:tuna
+Food:cod
+Food:halibut
+Food:trout
+Food:bass
+Food:tilapia
+Food:sardine
+Food:anchovy
+Food:mackerel
+Food:herring
+Food:shrimp
+Food:prawn
+Food:lobster
+Food:crab
+Food:oyster
+Food:mussel
+Food:clam
+Food:scallop
+Food:squid
+Food:octopus
+Food:caviar
+Food:bread
+Food:toast
+Food:bagel
+Food:croissant
+Food:muffin
+Food:biscuit
+Food:roll
+Food:baguette
+Food:pita
+Food:tortilla
+Food:naan
+Food:flatbread
+Food:cracker
+Food:pretzel
+Food:rice
+Food:pasta
+Food:noodle
+Food:spaghetti
+Food:macaroni
+Food:lasagna
+Food:ravioli
+Food:gnocchi
+Food:couscous
+Food:quinoa
+Food:oatmeal
+Food:cereal
+Food:granola
+Food:pancake
+Food:waffle
+Food:french toast
+Food:omelet
+Food:scrambled eggs
+Food:fried egg
+Food:boiled egg
+Food:poached egg
+Food:sandwich
+Food:wrap
+Food:burrito
+Food:taco
+Food:quesadilla
+Food:enchilada
+Food:nachos
+Food:pizza
+Food:calzone
+Food:soup
+Food:stew
+Food:chili
+Food:curry
+Food:casserole
+Food:salad
+Food:coleslaw
+Food:potato salad
+Food:pasta salad
+Food:fruit salad
+Food:dressing
+Food:mayonnaise
+Food:ketchup
+Food:mustard
+Food:relish
+Food:salsa
+Food:guacamole
+Food:hummus
+Food:sauce
+Food:gravy
+Food:marinade
+Food:broth
+Food:stock
+Food:pudding
+Food:custard
+Food:mousse
+Food:gelatin
+Food:jelly
+Food:jam
+Food:preserve
+Food:marmalade
+Food:peanut butter
+Food:almond butter
+Food:nutella
+Food:chocolate
+Food:candy
+Food:caramel
+Food:toffee
+Food:fudge
+Food:brownie
+Food:cookie
+Food:cake
+Food:cupcake
+Food:pie
+Food:tart
+Food:pastry
+Food:donut
+Food:eclair
+Food:macaron
+Food:cheesecake
+Food:ice cream
+Food:sorbet
+Food:gelato
+Food:frozen yogurt
+Food:milkshake
+Food:smoothie
+Food:juice
+Food:lemonade
+Food:coffee
+Food:tea
+Food:hot chocolate
+Food:soda
+Food:water
+Food:sparkling water
+Food:tonic
+Food:energy drink
+Food:sports drink
+Food:wine
+Food:beer
+Food:champagne
+Food:vodka
+Food:whiskey
+Food:rum
+Food:gin
+Food:tequila
+Food:brandy
+Food:liqueur
+Food:cocktail
+Food:tofu
+Food:tempeh
+Food:seitan
+Food:edamame
+Food:soy sauce
+Food:miso
+Food:wasabi
+Food:sushi
+Food:sashimi
+Food:ramen
+Food:pho
+Food:dim sum
+Food:dumpling
+Food:spring roll
+Food:egg roll
+Food:wonton
+Food:fried rice
+Food:stir fry
+Food:teriyaki
+Food:tempura
+Food:pad thai
+Food:satay
+Food:kebab
+Food:falafel
+Food:shawarma
+Food:gyro
+Food:paella
+Food:risotto
+Food:polenta
+Food:bruschetta
+Food:antipasto
+Food:carpaccio
+Food:prosciutto
+Food:chorizo
+Food:bratwurst
+Food:kielbasa
+Food:jerky
+Food:pate
+Food:foie gras
+Food:escargot
+Food:haggis
+Food:shepherd's pie
+Food:fish and chips
+Food:bangers and mash
+Food:roast dinner
+Food:yorkshire pudding
+Food:scone
+Food:crumpet
+Food:english muffin
+Food:shortbread
+Food:treacle
+Food:clotted cream
+Shopping:store
+Shopping:shop
+Shopping:mall
+Shopping:market
+Shopping:supermarket
+Shopping:grocery
+Shopping:boutique
+Shopping:outlet
+Shopping:department store
+Shopping:convenience store
+Shopping:pharmacy
+Shopping:drugstore
+Shopping:bookstore
+Shopping:electronics store
+Shopping:hardware store
+Shopping:furniture store
+Shopping:clothing store
+Shopping:shoe store
+Shopping:jewelry store
+Shopping:toy store
+Shopping:pet store
+Shopping:sporting goods
+Shopping:gift shop
+Shopping:souvenir shop
+Shopping:thrift store
+Shopping:antique shop
+Shopping:flea market
+Shopping:farmers market
+Shopping:bakery
+Shopping:butcher
+Shopping:fishmonger
+Shopping:florist
+Shopping:newsstand
+Shopping:kiosk
+Shopping:vending machine
+Shopping:cart
+Shopping:basket
+Shopping:bag
+Shopping:receipt
+Shopping:price
+Shopping:cost
+Shopping:discount
+Shopping:sale
+Shopping:clearance
+Shopping:bargain
+Shopping:deal
+Shopping:coupon
+Shopping:voucher
+Shopping:gift card
+Shopping:loyalty card
+Shopping:membership
+Shopping:subscription
+Shopping:payment
+Shopping:cash
+Shopping:credit card
+Shopping:debit card
+Shopping:check
+Shopping:money
+Shopping:change
+Shopping:coin
+Shopping:bill
+Shopping:wallet
+Shopping:purse
+Shopping:checkout
+Shopping:register
+Shopping:cashier
+Shopping:clerk
+Shopping:salesperson
+Shopping:customer
+Shopping:shopper
+Shopping:buyer
+Shopping:seller
+Shopping:vendor
+Shopping:merchant
+Shopping:retailer
+Shopping:wholesaler
+Shopping:supplier
+Shopping:distributor
+Shopping:manufacturer
+Shopping:brand
+Shopping:product
+Shopping:item
+Shopping:goods
+Shopping:merchandise
+Shopping:inventory
+Shopping:stock
+Shopping:supply
+Shopping:demand
+Shopping:order
+Shopping:purchase
+Shopping:transaction
+Shopping:exchange
+Shopping:return
+Shopping:refund
+Shopping:warranty
+Shopping:guarantee
+Shopping:policy
+Shopping:terms
+Shopping:conditions
+Shopping:shipping
+Shopping:delivery
+Shopping:pickup
+Shopping:curbside
+Shopping:drive-through
+Shopping:online shopping
+Shopping:e-commerce
+Shopping:website
+Shopping:app
+Shopping:account
+Shopping:profile
+Shopping:wishlist
+Shopping:favorites
+Shopping:cart
+Shopping:checkout
+Shopping:payment method
+Shopping:billing address
+Shopping:shipping address
+Shopping:tracking
+Shopping:confirmation
+Shopping:invoice
+Shopping:packing slip
+Shopping:label
+Shopping:package
+Shopping:parcel
+Shopping:box
+Shopping:envelope
+Shopping:bubble wrap
+Shopping:tape
+Shopping:scissors
+Shopping:size
+Shopping:color
+Shopping:style
+Shopping:design
+Shopping:model
+Shopping:version
+Shopping:edition
+Shopping:collection
+Shopping:series
+Shopping:line
+Shopping:range
+Shopping:selection
+Shopping:variety
+Shopping:option
+Shopping:choice
+Shopping:preference
+Shopping:recommendation
+Shopping:review
+Shopping:rating
+Shopping:feedback
+Shopping:complaint
+Shopping:suggestion
+Shopping:question
+Shopping:answer
+Shopping:help
+Shopping:support
+Shopping:service
+Shopping:assistance
+Shopping:aisle
+Shopping:section
+Shopping:department
+Shopping:floor
+Shopping:level
+Shopping:entrance
+Shopping:exit
+Shopping:escalator
+Shopping:elevator
+Shopping:stairs
+Shopping:restroom
+Shopping:fitting room
+Shopping:dressing room
+Shopping:mirror
+Shopping:hanger
+Shopping:rack
+Shopping:shelf
+Shopping:display
+Shopping:window
+Shopping:mannequin
+Shopping:sign
+Shopping:advertisement
+Shopping:promotion
+Shopping:offer
+Shopping:special
+Shopping:limited edition
+Shopping:exclusive
+Shopping:new arrival
+Shopping:bestseller
+Shopping:popular
+Shopping:trending
+Shopping:featured
+Shopping:recommended
+Shopping:compare
+Shopping:browse
+Shopping:search
+Shopping:filter
+Shopping:sort
+Shopping:category
+Shopping:subcategory
+Shopping:tag
+Shopping:label
+Shopping:description
+Shopping:specification
+Shopping:feature
+Shopping:benefit
+Shopping:quality
+Shopping:material
+Shopping:fabric
+Shopping:cotton
+Shopping:silk
+Shopping:wool
+Shopping:leather
+Shopping:synthetic
+Shopping:organic
+Shopping:natural
+Shopping:eco-friendly
+Shopping:sustainable
+Shopping:recycled
+Shopping:handmade
+Shopping:imported
+Shopping:domestic
+Shopping:local
+Shopping:artisan
+Shopping:craft
+Shopping:custom
+Shopping:personalized
+Shopping:monogram
+Shopping:engraving
+Shopping:alteration
+Shopping:tailoring
+Shopping:repair
+Shopping:maintenance
+Shopping:installation
+Shopping:assembly
+Shopping:setup
+Shopping:demonstration
+Shopping:sample
+Shopping:trial
+Shopping:test
+Shopping:free
+Shopping:complimentary
+Shopping:bonus
+Shopping:gift
+Shopping:reward
+Shopping:points
+Shopping:miles
+Shopping:cashback
+Shopping:rebate
+Shopping:savings
+Shopping:value
+Shopping:worth
+Shopping:investment
+Shopping:budget
+Shopping:expense
+Shopping:spending
+Shopping:affordable
+Shopping:expensive
+Shopping:cheap
+Shopping:costly
+Shopping:pricey
+Shopping:overpriced
+Shopping:underpriced
+Shopping:fair price
+Shopping:market price
+Shopping:retail price
+Shopping:wholesale price
+Shopping:list price
+Shopping:asking price
+Shopping:final price
+Shopping:negotiation
+Shopping:haggling
+Shopping:bidding
+Shopping:auction
+Shopping:bid
+Shopping:offer
+Shopping:counteroffer
+Shopping:acceptance
+Shopping:rejection
+Shopping:agreement
+Shopping:contract
+Shopping:terms of sale
+Shopping:conditions of sale
+Shopping:payment terms
+Shopping:payment plan
+Shopping:installment
+Shopping:financing
+Shopping:credit
+Shopping:loan
+Shopping:interest
+Shopping:fee
+Shopping:charge
+Shopping:tax
+Shopping:duty
+Shopping:tariff
+Shopping:import
+Shopping:export
+Shopping:customs
+Shopping:declaration
+Shopping:inspection
+Shopping:certification
+Shopping:authentication
+Shopping:verification
+Shopping:approval
+Work:job
+Work:career
+Work:profession
+Work:occupation
+Work:employment
+Work:workplace
+Work:office
+Work:desk
+Work:chair
+Work:computer
+Work:laptop
+Work:monitor
+Work:keyboard
+Work:mouse
+Work:printer
+Work:scanner
+Work:copier
+Work:fax
+Work:phone
+Work:headset
+Work:webcam
+Work:microphone
+Work:speaker
+Work:projector
+Work:screen
+Work:whiteboard
+Work:marker
+Work:eraser
+Work:pen
+Work:pencil
+Work:paper
+Work:notebook
+Work:folder
+Work:binder
+Work:stapler
+Work:staple
+Work:paperclip
+Work:rubber band
+Work:tape
+Work:scissors
+Work:calculator
+Work:calendar
+Work:planner
+Work:schedule
+Work:agenda
+Work:meeting
+Work:conference
+Work:presentation
+Work:report
+Work:document
+Work:file
+Work:email
+Work:message
+Work:memo
+Work:letter
+Work:proposal
+Work:contract
+Work:agreement
+Work:invoice
+Work:receipt
+Work:budget
+Work:expense
+Work:revenue
+Work:profit
+Work:loss
+Work:salary
+Work:wage
+Work:bonus
+Work:commission
+Work:overtime
+Work:paycheck
+Work:payroll
+Work:benefits
+Work:insurance
+Work:retirement
+Work:pension
+Work:vacation
+Work:holiday
+Work:sick leave
+Work:personal day
+Work:break
+Work:lunch
+Work:coffee break
+Work:shift
+Work:schedule
+Work:hours
+Work:full-time
+Work:part-time
+Work:temporary
+Work:permanent
+Work:contract
+Work:freelance
+Work:remote
+Work:hybrid
+Work:on-site
+Work:commute
+Work:traffic
+Work:parking
+Work:badge
+Work:ID card
+Work:security
+Work:access
+Work:login
+Work:password
+Work:username
+Work:account
+Work:system
+Work:software
+Work:application
+Work:program
+Work:database
+Work:server
+Work:network
+Work:internet
+Work:intranet
+Work:cloud
+Work:backup
+Work:update
+Work:upgrade
+Work:maintenance
+Work:support
+Work:help desk
+Work:IT
+Work:department
+Work:division
+Work:team
+Work:group
+Work:unit
+Work:branch
+Work:headquarters
+Work:subsidiary
+Work:partner
+Work:client
+Work:customer
+Work:vendor
+Work:supplier
+Work:contractor
+Work:consultant
+Work:employee
+Work:employer
+Work:staff
+Work:personnel
+Work:workforce
+Work:colleague
+Work:coworker
+Work:teammate
+Work:boss
+Work:manager
+Work:supervisor
+Work:director
+Work:executive
+Work:CEO
+Work:CFO
+Work:COO
+Work:president
+Work:vice president
+Work:chairman
+Work:board
+Work:shareholder
+Work:stakeholder
+Work:investor
+Work:owner
+Work:founder
+Work:entrepreneur
+Work:intern
+Work:trainee
+Work:apprentice
+Work:junior
+Work:senior
+Work:associate
+Work:assistant
+Work:coordinator
+Work:specialist
+Work:analyst
+Work:engineer
+Work:developer
+Work:designer
+Work:architect
+Work:administrator
+Work:receptionist
+Work:secretary
+Work:clerk
+Work:accountant
+Work:auditor
+Work:lawyer
+Work:paralegal
+Work:consultant
+Work:advisor
+Work:strategist
+Work:planner
+Work:researcher
+Work:scientist
+Work:technician
+Work:operator
+Work:mechanic
+Work:electrician
+Work:plumber
+Work:carpenter
+Work:welder
+Work:machinist
+Work:driver
+Work:pilot
+Work:captain
+Work:chef
+Work:cook
+Work:waiter
+Work:bartender
+Work:nurse
+Work:doctor
+Work:surgeon
+Work:dentist
+Work:pharmacist
+Work:therapist
+Work:counselor
+Work:teacher
+Work:professor
+Work:instructor
+Work:trainer
+Work:coach
+Work:recruiter
+Work:interviewer
+Work:candidate
+Work:applicant
+Work:resume
+Work:cover letter
+Work:portfolio
+Work:reference
+Work:recommendation
+Work:background check
+Work:drug test
+Work:orientation
+Work:onboarding
+Work:training
+Work:workshop
+Work:seminar
+Work:webinar
+Work:certification
+Work:license
+Work:degree
+Work:diploma
+Work:qualification
+Work:skill
+Work:experience
+Work:expertise
+Work:knowledge
+Work:competency
+Work:performance
+Work:evaluation
+Work:review
+Work:feedback
+Work:goal
+Work:objective
+Work:target
+Work:deadline
+Work:milestone
+Work:project
+Work:task
+Work:assignment
+Work:duty
+Work:responsibility
+Work:role
+Work:position
+Work:title
+Work:promotion
+Work:demotion
+Work:transfer
+Work:relocation
+Work:resignation
+Work:termination
+Work:layoff
+Work:retirement
+Work:severance
+Work:notice
+Work:exit interview
+Work:handover
+Work:transition
+Work:succession
+Work:leadership
+Work:management
+Work:strategy
+Work:planning
+Work:organization
+Work:coordination
+Work:communication
+Work:collaboration
+Work:teamwork
+Work:delegation
+Work:supervision
+Work:motivation
+Work:productivity
+Work:efficiency
+Work:quality
+Work:innovation
+Work:creativity
+Work:problem-solving
+Work:decision-making
+Work:negotiation
+Work:conflict resolution
+Work:networking
+Work:relationship
+Work:partnership
+Work:alliance
+Work:merger
+Work:acquisition
+Work:expansion
+Work:growth
+Work:development
+Work:improvement
+Work:optimization
+Work:automation
+Work:digitalization
+Work:transformation
+Travel:trip
+Travel:journey
+Travel:voyage
+Travel:tour
+Travel:excursion
+Travel:expedition
+Travel:adventure
+Travel:vacation
+Travel:holiday
+Travel:getaway
+Travel:escape
+Travel:retreat
+Travel:staycation
+Travel:road trip
+Travel:cruise
+Travel:flight
+Travel:train ride
+Travel:bus ride
+Travel:drive
+Travel:commute
+Travel:destination
+Travel:origin
+Travel:departure
+Travel:arrival
+Travel:layover
+Travel:stopover
+Travel:transit
+Travel:connection
+Travel:transfer
+Travel:delay
+Travel:cancellation
+Travel:rescheduling
+Travel:booking
+Travel:reservation
+Travel:confirmation
+Travel:itinerary
+Travel:schedule
+Travel:timetable
+Travel:ticket
+Travel:pass
+Travel:visa
+Travel:passport
+Travel:ID
+Travel:documentation
+Travel:permit
+Travel:authorization
+Travel:customs
+Travel:immigration
+Travel:border
+Travel:checkpoint
+Travel:security
+Travel:screening
+Travel:inspection
+Travel:declaration
+Travel:duty-free
+Travel:airport
+Travel:terminal
+Travel:gate
+Travel:runway
+Travel:tarmac
+Travel:hangar
+Travel:control tower
+Travel:check-in
+Travel:boarding
+Travel:takeoff
+Travel:landing
+Travel:turbulence
+Travel:altitude
+Travel:cabin
+Travel:cockpit
+Travel:seat
+Travel:aisle
+Travel:window
+Travel:overhead bin
+Travel:carry-on
+Travel:luggage
+Travel:baggage
+Travel:suitcase
+Travel:backpack
+Travel:duffel bag
+Travel:trunk
+Travel:claim
+Travel:carousel
+Travel:lost and found
+Travel:train station
+Travel:platform
+Travel:track
+Travel:carriage
+Travel:compartment
+Travel:sleeper
+Travel:dining car
+Travel:bus station
+Travel:depot
+Travel:stop
+Travel:route
+Travel:line
+Travel:express
+Travel:local
+Travel:shuttle
+Travel:ferry
+Travel:port
+Travel:harbor
+Travel:dock
+Travel:pier
+Travel:marina
+Travel:deck
+Travel:cabin
+Travel:lifeboat
+Travel:captain
+Travel:crew
+Travel:passenger
+Travel:traveler
+Travel:tourist
+Travel:visitor
+Travel:guest
+Travel:local
+Travel:foreigner
+Travel:expat
+Travel:nomad
+Travel:backpacker
+Travel:hotel
+Travel:motel
+Travel:inn
+Travel:hostel
+Travel:resort
+Travel:lodge
+Travel:cabin
+Travel:villa
+Travel:apartment
+Travel:rental
+Travel:Airbnb
+Travel:bed and breakfast
+Travel:guesthouse
+Travel:campsite
+Travel:campground
+Travel:tent
+Travel:RV
+Travel:camper
+Travel:trailer
+Travel:room
+Travel:suite
+Travel:lobby
+Travel:reception
+Travel:front desk
+Travel:concierge
+Travel:bellhop
+Travel:housekeeping
+Travel:room service
+Travel:amenity
+Travel:pool
+Travel:spa
+Travel:gym
+Travel:restaurant
+Travel:bar
+Travel:lounge
+Travel:Wi-Fi
+Travel:parking
+Travel:valet
+Travel:checkout
+Travel:key
+Travel:card
+Travel:safe
+Travel:minibar
+Travel:car rental
+Travel:agency
+Travel:agent
+Travel:guide
+Travel:tour guide
+Travel:interpreter
+Travel:translator
+Travel:map
+Travel:GPS
+Travel:navigation
+Travel:direction
+Travel:north
+Travel:south
+Travel:east
+Travel:west
+Travel:left
+Travel:right
+Travel:straight
+Travel:turn
+Travel:intersection
+Travel:roundabout
+Travel:highway
+Travel:freeway
+Travel:motorway
+Travel:expressway
+Travel:road
+Travel:street
+Travel:avenue
+Travel:boulevard
+Travel:lane
+Travel:path
+Travel:trail
+Travel:bridge
+Travel:tunnel
+Travel:toll
+Travel:speed limit
+Travel:traffic
+Travel:congestion
+Travel:accident
+Travel:detour
+Travel:construction
+Travel:gas station
+Travel:rest stop
+Travel:service area
+Travel:attraction
+Travel:landmark
+Travel:monument
+Travel:museum
+Travel:gallery
+Travel:theater
+Travel:stadium
+Travel:arena
+Travel:park
+Travel:garden
+Travel:zoo
+Travel:aquarium
+Travel:beach
+Travel:mountain
+Travel:lake
+Travel:river
+Travel:waterfall
+Travel:forest
+Travel:desert
+Travel:island
+Travel:peninsula
+Travel:coast
+Travel:cliff
+Travel:cave
+Travel:volcano
+Travel:glacier
+Travel:valley
+Travel:canyon
+Travel:countryside
+Travel:village
+Travel:town
+Travel:city
+Travel:capital
+Travel:metropolis
+Travel:downtown
+Travel:suburb
+Travel:district
+Travel:neighborhood
+Travel:square
+Travel:plaza
+Travel:market
+Travel:bazaar
+Travel:souvenir
+Travel:postcard
+Travel:photograph
+Travel:memory
+Travel:experience
+Travel:culture
+Travel:tradition
+Travel:custom
+Travel:language
+Travel:currency
+Travel:exchange rate
+Travel:ATM
+Travel:bank
+Travel:money
+Travel:tip
+Travel:gratuity
+Travel:budget
+Travel:expense
+Travel:cost
+Travel:fare
+Travel:fee
+Travel:surcharge
+Travel:tax
+Travel:insurance
+Travel:coverage
+Travel:emergency
+Travel:assistance
+Travel:embassy
+Travel:consulate
+Travel:weather
+Travel:climate
+Travel:season
+Travel:temperature
+Travel:forecast
+Travel:sunscreen
+Travel:sunglasses
+Travel:hat
+Travel:umbrella
+Travel:jacket
+Travel:comfortable shoes
+Travel:adapter
+Travel:converter
+Travel:charger
+Travel:power bank
+Travel:camera
+Travel:binoculars
+Travel:guidebook
+Travel:phrasebook
+Travel:first aid kit
+Travel:medication
+Travel:vaccination
+Travel:health certificate
+Travel:jet lag
+Travel:altitude sickness
+Travel:motion sickness
+Travel:seasickness
+Restaurant:menu
+Restaurant:appetizer
+Restaurant:starter
+Restaurant:entree
+Restaurant:main course
+Restaurant:side dish
+Restaurant:dessert
+Restaurant:special
+Restaurant:daily special
+Restaurant:chef's special
+Restaurant:tasting menu
+Restaurant:prix fixe
+Restaurant:a la carte
+Restaurant:combo
+Restaurant:meal
+Restaurant:dish
+Restaurant:plate
+Restaurant:portion
+Restaurant:serving
+Restaurant:course
+Restaurant:buffet
+Restaurant:brunch
+Restaurant:lunch
+Restaurant:dinner
+Restaurant:breakfast
+Restaurant:snack
+Restaurant:takeout
+Restaurant:delivery
+Restaurant:dine-in
+Restaurant:drive-through
+Restaurant:curbside
+Restaurant:pickup
+Restaurant:catering
+Restaurant:banquet
+Restaurant:reception
+Restaurant:party
+Restaurant:event
+Restaurant:celebration
+Restaurant:reservation
+Restaurant:booking
+Restaurant:table
+Restaurant:booth
+Restaurant:bar
+Restaurant:counter
+Restaurant:patio
+Restaurant:terrace
+Restaurant:outdoor seating
+Restaurant:indoor seating
+Restaurant:private room
+Restaurant:dining room
+Restaurant:waiting area
+Restaurant:host stand
+Restaurant:host
+Restaurant:hostess
+Restaurant:waiter
+Restaurant:waitress
+Restaurant:server
+Restaurant:busser
+Restaurant:runner
+Restaurant:bartender
+Restaurant:sommelier
+Restaurant:chef
+Restaurant:sous chef
+Restaurant:line cook
+Restaurant:prep cook
+Restaurant:dishwasher
+Restaurant:manager
+Restaurant:owner
+Restaurant:customer
+Restaurant:guest
+Restaurant:diner
+Restaurant:patron
+Restaurant:regular
+Restaurant:group
+Restaurant:party size
+Restaurant:wait time
+Restaurant:queue
+Restaurant:line
+Restaurant:walk-in
+Restaurant:seating
+Restaurant:highchair
+Restaurant:booster seat
+Restaurant:napkin
+Restaurant:placemat
+Restaurant:tablecloth
+Restaurant:centerpiece
+Restaurant:candle
+Restaurant:flowers
+Restaurant:ambiance
+Restaurant:atmosphere
+Restaurant:decor
+Restaurant:music
+Restaurant:lighting
+Restaurant:noise level
+Restaurant:dress code
+Restaurant:casual
+Restaurant:formal
+Restaurant:smart casual
+Restaurant:business casual
+Restaurant:fine dining
+Restaurant:fast food
+Restaurant:fast casual
+Restaurant:family style
+Restaurant:bistro
+Restaurant:brasserie
+Restaurant:cafe
+Restaurant:coffee shop
+Restaurant:diner
+Restaurant:pub
+Restaurant:tavern
+Restaurant:grill
+Restaurant:steakhouse
+Restaurant:seafood restaurant
+Restaurant:pizzeria
+Restaurant:trattoria
+Restaurant:sushi bar
+Restaurant:ramen shop
+Restaurant:noodle house
+Restaurant:dim sum
+Restaurant:taqueria
+Restaurant:cantina
+Restaurant:deli
+Restaurant:bakery
+Restaurant:patisserie
+Restaurant:ice cream parlor
+Restaurant:food truck
+Restaurant:food court
+Restaurant:food hall
+Restaurant:order
+Restaurant:request
+Restaurant:preference
+Restaurant:allergy
+Restaurant:dietary restriction
+Restaurant:vegetarian
+Restaurant:vegan
+Restaurant:gluten-free
+Restaurant:dairy-free
+Restaurant:nut-free
+Restaurant:halal
+Restaurant:kosher
+Restaurant:organic
+Restaurant:locally sourced
+Restaurant:farm-to-table
+Restaurant:sustainable
+Restaurant:ingredient
+Restaurant:recipe
+Restaurant:preparation
+Restaurant:cooking method
+Restaurant:grilled
+Restaurant:fried
+Restaurant:baked
+Restaurant:roasted
+Restaurant:steamed
+Restaurant:boiled
+Restaurant:sauteed
+Restaurant:braised
+Restaurant:poached
+Restaurant:smoked
+Restaurant:raw
+Restaurant:rare
+Restaurant:medium rare
+Restaurant:medium
+Restaurant:medium well
+Restaurant:well done
+Restaurant:seasoning
+Restaurant:spice
+Restaurant:herb
+Restaurant:sauce
+Restaurant:dressing
+Restaurant:condiment
+Restaurant:garnish
+Restaurant:presentation
+Restaurant:plating
+Restaurant:utensil
+Restaurant:fork
+Restaurant:knife
+Restaurant:spoon
+Restaurant:chopsticks
+Restaurant:plate
+Restaurant:bowl
+Restaurant:cup
+Restaurant:glass
+Restaurant:mug
+Restaurant:pitcher
+Restaurant:carafe
+Restaurant:bottle
+Restaurant:water
+Restaurant:sparkling water
+Restaurant:still water
+Restaurant:tap water
+Restaurant:ice
+Restaurant:lemon
+Restaurant:lime
+Restaurant:straw
+Restaurant:beverage
+Restaurant:drink
+Restaurant:soft drink
+Restaurant:soda
+Restaurant:juice
+Restaurant:tea
+Restaurant:coffee
+Restaurant:espresso
+Restaurant:cappuccino
+Restaurant:latte
+Restaurant:decaf
+Restaurant:wine
+Restaurant:red wine
+Restaurant:white wine
+Restaurant:rose
+Restaurant:sparkling wine
+Restaurant:champagne
+Restaurant:beer
+Restaurant:draft beer
+Restaurant:bottled beer
+Restaurant:craft beer
+Restaurant:cocktail
+Restaurant:mocktail
+Restaurant:spirits
+Restaurant:liquor
+Restaurant:wine list
+Restaurant:drink menu
+Restaurant:happy hour
+Restaurant:last call
+Restaurant:check
+Restaurant:bill
+Restaurant:tab
+Restaurant:receipt
+Restaurant:total
+Restaurant:subtotal
+Restaurant:tax
+Restaurant:gratuity
+Restaurant:tip
+Restaurant:service charge
+Restaurant:split check
+Restaurant:separate checks
+Restaurant:payment
+Restaurant:cash
+Restaurant:credit card
+Restaurant:debit card
+Restaurant:contactless
+Restaurant:mobile payment
+Restaurant:gift card
+Restaurant:coupon
+Restaurant:discount
+Restaurant:promotion
+Restaurant:loyalty program
+Restaurant:points
+Restaurant:rewards
+Restaurant:complimentary
+Restaurant:on the house
+Restaurant:refill
+Restaurant:extra
+Restaurant:substitution
+Restaurant:modification
+Restaurant:side
+Restaurant:upgrade
+Restaurant:doggy bag
+Restaurant:to-go box
+Restaurant:leftovers
+Restaurant:feedback
+Restaurant:review
+Restaurant:rating
+Restaurant:recommendation
+Restaurant:complaint
+Restaurant:compliment
+Restaurant:suggestion
+Restaurant:comment card
+Restaurant:survey
+Restaurant:quality
+Restaurant:taste
+Restaurant:flavor
+Restaurant:texture
+Restaurant:temperature
+Restaurant:freshness
+Restaurant:aroma
+Restaurant:appearance
+Restaurant:value
+Restaurant:price
+Restaurant:expensive
+Restaurant:affordable
+Restaurant:cheap
+Restaurant:overpriced
+Restaurant:worth it
+Restaurant:satisfaction
+Restaurant:experience
+Restaurant:service
+Restaurant:hospitality
+Restaurant:attentive
+Restaurant:friendly
+Restaurant:professional
+Restaurant:efficient
+Restaurant:slow
+Restaurant:busy
+Restaurant:crowded
+Restaurant:empty
+Restaurant:cozy
+Restaurant:romantic
+Restaurant:family-friendly
+Restaurant:kid-friendly
+Restaurant:pet-friendly
+Restaurant:wheelchair accessible
+Restaurant:parking
+Restaurant:valet
+Restaurant:location
+Restaurant:hours
+Restaurant:opening time
+Restaurant:closing time
+Restaurant:kitchen closes
+Restaurant:last seating

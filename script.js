@@ -242,7 +242,7 @@ class QuickCardApp {
 
         document.getElementById('refreshButton').addEventListener('click', () =>{
             this.currentCards = this.currentCards.sort(() => Math.random() - 0.5);
-            this.currentCards = this.currentCards.slice(0, 10);
+            this.currentCards = this.currentCards.slice(0, 20);
             this.currentCardIndex = 0;
             this.isCardFlipped = false; // Reset flip state
             this.renderCards();

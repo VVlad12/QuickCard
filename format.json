@@ -1,0 +1,24 @@
+{
+    "french": {
+        "house": [
+            {
+              "word": "maison",
+              "translation": "house",
+              "category": "house",
+              "sentences": {
+                "basic": {
+                  "sentence": "C'est ma maison.",
+                  "translation": "This is my house."
+                },
+                "intermediate": {
+                  "sentence": "J'habite dans une grande maison à la campagne.",
+                  "translation": "I live in a large house in the countryside."
+                },
+                "advanced": {
+                  "sentence": "Nous avons acheté une maison spacieuse avec un grand jardin pour les enfants.",
+                  "translation": "We bought a spacious house with a big garden for the children."
+                }
+              }
+            }
+          ]}}
+        
