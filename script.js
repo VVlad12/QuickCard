@@ -56,8 +56,10 @@ class QuickCardApp {
         
         // Hide modal
         document.getElementById('languageModal').style.display = 'none';
-        
+
         // Initialize the app
+        this.currentCategory = 'house';
+        this.buildCategoryDropdown();
         this.loadCards();
         this.updateUI();
     }
@@ -119,6 +121,9 @@ class QuickCardApp {
         const index = this.currentCardIndex;
         const card = this.createCard(this.currentCards[index], index, 1);
         cardStack.appendChild(card);
+        if (this.isCardFlipped) {
+            card.classList.add('flipped');
+        }
     }
 
     createCard(cardData, index, position) {
@@ -195,6 +200,23 @@ class QuickCardApp {
         return card;
     }
 
+    buildCategoryDropdown() {
+        const dropdown = document.getElementById('categoryDropdown');
+        const categories = Object.keys(vocabulary[this.currentLanguage] || {});
+        dropdown.innerHTML = categories.map(cat =>
+            `<option value="${cat}">${cat.charAt(0).toUpperCase() + cat.slice(1)}</option>`
+        ).join('');
+        // Restore selection or default to first
+        if (categories.includes(this.currentCategory) && this.currentCategory !== 'mix') {
+            dropdown.value = this.currentCategory;
+        } else if (categories.length > 0 && this.currentCategory === 'mix') {
+            dropdown.value = categories[0];
+        } else {
+            this.currentCategory = categories[0] || '';
+            dropdown.value = this.currentCategory;
+        }
+    }
+
     getCategoryLabel(category) {
         const labels = {
             house: 'House',
@@ -229,19 +251,28 @@ class QuickCardApp {
             });
         });
 
-        // Category selector
-        document.querySelectorAll('.category-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
-                this.currentCategory = e.target.dataset.category;
-                this.loadCards();
-                this.updateUI();
-            });
+        // Category dropdown
+        document.getElementById('categoryDropdown').addEventListener('change', (e) => {
+            this.currentCategory = e.target.value;
+            document.getElementById('mixBtn').classList.remove('active');
+            this.loadCards();
+            this.updateUI();
+        });
+
+        // Mix button
+        document.getElementById('mixBtn').addEventListener('click', () => {
+            this.currentCategory = 'mix';
+            document.getElementById('categoryDropdown').value = '';
+            document.getElementById('mixBtn').classList.add('active');
+            this.loadCards();
+            this.updateUI();
         });
 
         document.getElementById('refreshButton').addEventListener('click', () =>{
-            this.currentCards = this.currentCards.sort(() => Math.random() - 0.5);
+            for (let i = this.currentCards.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [this.currentCards[i], this.currentCards[j]] = [this.currentCards[j], this.currentCards[i]];
+            }
             this.currentCards = this.currentCards.slice(0, 20);
             this.currentCardIndex = 0;
             this.isCardFlipped = false; // Reset flip state
@@ -352,7 +383,6 @@ class QuickCardApp {
     previousCard() {
         if (this.currentCardIndex > 0) {
             this.currentCardIndex--;
-            this.isCardFlipped = false; // Reset flip state
             this.renderCards();
             this.updateProgress();
         }
@@ -361,7 +391,6 @@ class QuickCardApp {
     nextCard() {
         if (this.currentCardIndex < this.currentCards.length - 1) {
             this.currentCardIndex++;
-            this.isCardFlipped = false; // Reset flip state
             this.renderCards();
             this.updateProgress();
         }
@@ -705,10 +734,15 @@ class QuickCardApp {
             btn.classList.toggle('active', btn.dataset.difficulty === this.currentDifficulty);
         });
 
-        // Update category buttons
-        document.querySelectorAll('.category-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.category === this.currentCategory);
-        });
+        // Update category dropdown and mix button
+        const mixBtn = document.getElementById('mixBtn');
+        const dropdown = document.getElementById('categoryDropdown');
+        if (this.currentCategory === 'mix') {
+            mixBtn.classList.add('active');
+        } else {
+            mixBtn.classList.remove('active');
+            if (dropdown) dropdown.value = this.currentCategory;
+        }
 
         this.updateProgress();
     }
