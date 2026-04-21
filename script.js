@@ -58,7 +58,6 @@ class QuickCardApp {
         document.getElementById('languageModal').style.display = 'none';
 
         // Initialize the app
-        this.currentCategory = 'house';
         this.buildCategoryDropdown();
         this.loadCards();
         this.updateUI();
@@ -206,15 +205,10 @@ class QuickCardApp {
         dropdown.innerHTML = categories.map(cat =>
             `<option value="${cat}">${cat.charAt(0).toUpperCase() + cat.slice(1)}</option>`
         ).join('');
-        // Restore selection or default to first
-        if (categories.includes(this.currentCategory) && this.currentCategory !== 'mix') {
-            dropdown.value = this.currentCategory;
-        } else if (categories.length > 0 && this.currentCategory === 'mix') {
-            dropdown.value = categories[0];
-        } else {
-            this.currentCategory = categories[0] || '';
-            dropdown.value = this.currentCategory;
-        }
+        // Select current category if available, otherwise fall back to first
+        const target = categories.includes(this.currentCategory) ? this.currentCategory : categories[0] || '';
+        dropdown.value = target;
+        this.currentCategory = target;
     }
 
     getCategoryLabel(category) {
