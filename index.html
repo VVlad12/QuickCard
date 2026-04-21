@@ -70,7 +70,13 @@
         
 
         <div class="category-selector">
-            <select id="categoryDropdown" class="category-dropdown"></select>
+            <div class="category-dropdown-wrapper" id="categoryDropdownWrapper">
+                <button class="category-dropdown-btn" id="categoryDropdownBtn">
+                    <span id="categoryDropdownLabel">Category</span>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </button>
+                <ul class="category-dropdown-list" id="categoryDropdownList"></ul>
+            </div>
             <button class="category-btn" id="mixBtn" data-category="mix">Mix</button>
         </div>
 

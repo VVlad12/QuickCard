@@ -200,15 +200,31 @@ class QuickCardApp {
     }
 
     buildCategoryDropdown() {
-        const dropdown = document.getElementById('categoryDropdown');
+        const list = document.getElementById('categoryDropdownList');
         const categories = Object.keys(vocabulary[this.currentLanguage] || {});
-        dropdown.innerHTML = categories.map(cat =>
-            `<option value="${cat}">${cat.charAt(0).toUpperCase() + cat.slice(1)}</option>`
-        ).join('');
-        // Select current category if available, otherwise fall back to first
         const target = categories.includes(this.currentCategory) ? this.currentCategory : categories[0] || '';
-        dropdown.value = target;
         this.currentCategory = target;
+
+        list.innerHTML = categories.map(cat =>
+            `<li class="category-dropdown-item${cat === target ? ' selected' : ''}" data-value="${cat}">${cat.charAt(0).toUpperCase() + cat.slice(1)}</li>`
+        ).join('');
+
+        document.getElementById('categoryDropdownLabel').textContent = target.charAt(0).toUpperCase() + target.slice(1);
+
+        list.querySelectorAll('.category-dropdown-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const value = item.dataset.value;
+                this.currentCategory = value;
+                document.getElementById('categoryDropdownLabel').textContent = value.charAt(0).toUpperCase() + value.slice(1);
+                list.querySelectorAll('.category-dropdown-item').forEach(i => i.classList.remove('selected'));
+                item.classList.add('selected');
+                document.getElementById('categoryDropdownWrapper').classList.remove('open');
+                document.getElementById('mixBtn').classList.remove('active');
+                this.loadCards();
+                this.updateUI();
+            });
+        });
     }
 
     getCategoryLabel(category) {
@@ -245,12 +261,13 @@ class QuickCardApp {
             });
         });
 
-        // Category dropdown
-        document.getElementById('categoryDropdown').addEventListener('change', (e) => {
-            this.currentCategory = e.target.value;
-            document.getElementById('mixBtn').classList.remove('active');
-            this.loadCards();
-            this.updateUI();
+        // Category dropdown toggle
+        document.getElementById('categoryDropdownBtn').addEventListener('click', (e) => {
+            e.stopPropagation();
+            document.getElementById('categoryDropdownWrapper').classList.toggle('open');
+        });
+        document.addEventListener('click', () => {
+            document.getElementById('categoryDropdownWrapper').classList.remove('open');
         });
 
         // Mix button
@@ -730,12 +747,12 @@ class QuickCardApp {
 
         // Update category dropdown and mix button
         const mixBtn = document.getElementById('mixBtn');
-        const dropdown = document.getElementById('categoryDropdown');
         if (this.currentCategory === 'mix') {
             mixBtn.classList.add('active');
         } else {
             mixBtn.classList.remove('active');
-            if (dropdown) dropdown.value = this.currentCategory;
+            const label = document.getElementById('categoryDropdownLabel');
+            if (label) label.textContent = this.currentCategory.charAt(0).toUpperCase() + this.currentCategory.slice(1);
         }
 
         this.updateProgress();
